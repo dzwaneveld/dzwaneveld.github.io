@@ -59,7 +59,7 @@ These command specify the title and subtitle respectively. Make the title concis
 The author and course are specified using this command. As space is limited, note that the title page has a table to specify students and number when working in a group. The subject command is optional.
 
 - `\coverimage[Optional Y-Offset]{\includegraphics[width=\paperwidth]{cover.jpg}}`\
-This command specifies the cover image. If the `classic` cover is used, the 'y-offset' and 'width=\paperwidth' can be used to shrink and place the image on the cover correctly. The 'y-offset' is measured from the bottom of the page and supports various many units.
+This command specifies the cover image. If the `classic` cover is used, the 'y-offset' and 'width=\paperwidth' can be used to shrink and place the image on the cover correctly. The 'y-offset' is measured from the bottom of the page and supports various units.
 
 The title, subtitle and author will also be present on the title page. To give greater flexibility over the title page, the layout is described in `title.tex`. Modify this file according to your needs and make sure to check the requirements.
 
