@@ -47,7 +47,7 @@ yarn docs:build
 ### 2.2.0 (09/04/2021)
 
 * Changed some of the setup & updated README.md
-* Refined parts of the documentation
+* Simplified & refined parts of the documentation
 
 ### 2.1.1 (12/02/2021)
 

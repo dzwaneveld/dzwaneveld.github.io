@@ -18,13 +18,12 @@ module.exports = {
     sidebar: {
       '/report/': [
         '',
-        'getting-started',
         'faq',
         'changelog',
       ],
       '/article/': [
         '',
-        'getting-started',
+        'faq',
         'changelog',
       ]
     },
