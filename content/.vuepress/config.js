@@ -1,6 +1,7 @@
 module.exports = {
   title: 'LaTeX Templates for Delft University of Technology',
   description: 'Documentation for the improved TU Delft LaTeX report/thesis and article template. The design principle of these templates is to be simple and extensive.',
+  dest: 'docs',
   themeConfig: {
     nav: [
       { text: 'Report/Thesis Template', link: '/report/' },
@@ -10,8 +11,7 @@ module.exports = {
         ariaLabel: 'Learn More Menu',
         items: [
           { text: 'About', link: '/about/' },
-          { text: 'Changelog', link: '/changelog/' },
-          { text: 'LaTeX Shortcuts', link: '/latex-shortcuts/' },
+          { text: 'Changelog', link: 'https://github.com/dzwaneveld/dzwaneveld.github.io#changelog' },
         ]
       }
     ],

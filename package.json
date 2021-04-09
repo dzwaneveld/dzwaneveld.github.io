@@ -4,8 +4,8 @@
     "vuepress": "^1.8.2"
   },
   "scripts": {
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:dev": "vuepress dev content",
+    "docs:build": "vuepress build content"
   },
   "private": true,
   "license": "UNLICENSED"

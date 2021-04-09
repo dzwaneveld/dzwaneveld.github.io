@@ -1,6 +1,6 @@
 # FAQ
 
-Answers to some of the questions I have been asked before can be found below. A general knowledge of LaTeX is assumed, but most steps should be relatively straightforward. If you have very specific questions, you might want to take a look at the documentation of the package in question. Feel free to [contact me](/about.html#contact) if you have more questions.
+Answers to some of more common questions can be found below. A general knowledge of LaTeX is assumed. If you have very specific questions, you might want to take a look at the documentation of the package in question. Feel free to [contact me](/about.html#contact) if you have more questions.
 
 [[toc]]
 
@@ -8,9 +8,7 @@ Answers to some of the questions I have been asked before can be found below. A 
 
 ### How do I get as little/much text as possible on a single page?
 
-> Meeting the page limit requirements is nothing more than using spacing creatively
-
-Here is an incomplete list of places where you *could* make changes, but you probably *shouldn't*. Changes should done in the class file (located at `layout/report-class.cls`), unless stated otherwise. In some cases, spacing can be negative to reduce whitespace to the absolute minimal.
+Meeting the page limit requirements is nothing more than using spacing creatively. As such, here is an incomplete list to change these some of the spacing. Changing the spacing has to be done in the class file (`layout/report-class.cls`), unless stated otherwise. In some cases, the spacing can be negative to reduce whitespace to the absolute minimum.
 
 - **Page margins**\
   The geometry of the page is defined with the command below. You could change the scale to your desire, replace it with a simple `margin=<length>` or fine-tune it with many different parameters. For the latter option, visit the [Overleaf Documentation](https://www.overleaf.com/learn/latex/page_size_and_margins#Fine_tuning_your_LaTeX_page_dimensions) on page size and margins.
@@ -33,6 +31,16 @@ Here is an incomplete list of places where you *could* make changes, but you pro
 
   To give some ideas: (1) the size of the chapter number is defined by `\fontsize{96}{96}`, (2) the size of the title is defined by `\Huge` and (3) the spacing between the title and the text is defined by `2\baselineskip`. The formatting of the sections is done in similar fashion. See [this question](/report/faq.html#how-can-i-adjust-the-titles) for a more details about the `\titleformat` command.
 
+  If you would like to move the chapter number to the same line as the chapter title, replace the titleformat command (line 1-5 in the previous code) with:
+
+  ```LaTeX
+  \titleformat{\chapter}
+    {\Huge\titlestyle\flushright}
+    {\thechapter.}
+    {5pt}
+    {}
+  ```
+
 - **Spacing between lists (itemize and enumerate)**\
   The default spacing between items has already been reduced slightly with the following:
 
@@ -53,7 +61,7 @@ Here is an incomplete list of places where you *could* make changes, but you pro
   \setlength{\belowcaptionskip}{0.0pt}                      % Vertical space after caption
   ```
 
-  You should probably avoid changing these lengths. The 'glue stretching' lengths give freedom (*plus* and *minus* length) to the compiler whenever the *fixed part* is insufficient. A visual representation of these parameters can be found in [Section 6.2 of the documentation for layouts](http://mirrors.ctan.org/macros/latex/contrib/layouts/layman.pdf).
+  Avoid changing these lengths. The 'glue stretching' lengths give freedom (*plus* and *minus* length) to the compiler whenever the *fixed part* is insufficient. A visual representation of these parameters can be found in [Section 6.2 of the documentation for layouts](http://mirrors.ctan.org/macros/latex/contrib/layouts/layman.pdf).
 
 ### How can I adjust the titles?
 
@@ -89,21 +97,21 @@ Take a look at the other instances of `\titleformat` to see other possible param
 
 ## Bibliography / References
 
-### How do I change the bibliography style to X?
+### How do I change the bibliography style?
 
-The default style of BibLaTeX is numeric. You can change it by specifying a different style when the package is imported. Navigate to the class file (`layout/tudelft-report.cls`) and find the line where BiBLaTeX is imported:
+The default style of BibLaTeX is numeric. You can change it by specifying a different style when the package is imported. Navigate to the class file (`layout/tudelft-report.cls`) and find the line where BibLaTeX is imported:
 
 ```LaTeX
 \RequirePackage{biblatex}   % Manages bibliography
 ```
 
-There are plenty of bibliography styles out there, but some of the more common ones you will likely use are:
+Some of the more common bibliography styles you will likely use are:
 
 - **ieee:** [1] J. Anderson, *Introduction to Flight*, 8th international ed. New York, United States: McGraw Hill Education, 2016.
 - **apa:** Anderson, J. (2016). *Introduction to flight* (8th international ed.). McGraw Hill Education.
 - **apa6:** Anderson, J. (2016). *Introduction to flight* (8th international ed.). New York, United States: McGraw Hill Education.
 
-Simply add the style as an option as seen below. If you are using multiple options, use a comma to separate. Note that the style is **case-sensitive**.
+Add the style as an option as seen below. If you are using multiple options, use a comma to separate. Note that the style is **case-sensitive**.
 
 ```LaTeX
 \RequirePackage[style=apa6]{biblatex}   % Manages bibliography
@@ -113,7 +121,7 @@ Simply add the style as an option as seen below. If you are using multiple optio
 
 ### How do I change the sorting order of the entries?
 
-The default sorting order of BibLaTeX is by the author's last name. You can change it by specifying a different order when the package is imported. Navigate to the class file (`layout/tudelft-report.cls`) and find the line where BiBLaTeX is imported:
+The default sorting order of BibLaTeX is by the author's last name. You can change it by specifying a different order when the package is imported. Navigate to the class file (`layout/tudelft-report.cls`) and find the line where BibLaTeX is imported:
 
 ```LaTeX
 \RequirePackage{biblatex}   % Manages bibliography
@@ -130,7 +138,7 @@ Select a sorting style:
 - **ydnt:** Sort by year (descending), name, title.
 - **none:** Do not sort at all. All entries are processed in citation order.
 
-Simply add the sorting style as an option as seen below. If you are using multiple options, use a comma to separate. Note that the sorting style is **case-sensitive**.
+Add the sorting style as an option as seen below. If you are using multiple options, use a comma to separate. Note that the sorting style is **case-sensitive**.
 
 ```LaTeX
 \RequirePackage[sorting=none]{biblatex}   % Manages bibliography
@@ -138,6 +146,6 @@ Simply add the sorting style as an option as seen below. If you are using multip
 
 ### How do I change the citation style?
 
-If you are using APA (or similar) and are wondering where the parentheses have gone, simply use `\parencite{}` instead of `\cite{}`. The latter does not include parentheses, so in order to get citations with parentheses use `\parencite{}`.
+Are you using APA (or similar) and are wondering about the parentheses? If so, use `\parencite{}` instead of `\cite{}`. The latter does not include parentheses by default.
 
 If you are looking to change to citation style, take a look at [Section 3.3.1](http://mirrors.ctan.org/macros/latex/contrib/biblatex/doc/biblatex.pdf#subsubsection.3.3.1) in the documentation for BibLaTeX for a complete list with a short description. This option is added with `citestyle=<citestyle>`.
