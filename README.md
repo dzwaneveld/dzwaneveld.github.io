@@ -1,11 +1,42 @@
 # LaTeX Templates for Delft University of Technology
 
-This is the source code of the documentation for the unofficial TU Delft LaTeX report/thesis and article template, which you can find [here](https://dzwaneveld.github.io). The design principle of these templates is to be simple *and* extensive. Whether you are only changing the bibliography style, making major changes to the title page, or wanting to have full control over the layout, these templates aim to make that easier.
+All the code related to the documentation can be found here. Feel free to send me an e-mail (see [here](https://dzwaneveld.github.io/about.html)) or create an issue in the appropriate repository if you have suggestions or encounter issues:
 
-The templates and documentation are by no means perfect, so if you have suggestions or encounter issues, you can send me an email (see [here](https://dzwaneveld.github.io/about.html)) or create an issue in the appropriate repository:
-
-- **Documentation**: https://github.com/dzwaneveld/Template-Documentation/issues
+- **Documentation**: https://github.com/dzwaneveld/dzwaneveld.github.io/issues
 - **Report/Thesis Template**: https://github.com/dzwaneveld/TU-Delft-Unofficial-Report-Template/issues
 - **Article Template**: https://github.com/dzwaneveld/TU-Delft-Unofficial-Article-Template/issues
 
-Thanks!
+## Maintaining & Deploying
+
+As the time between maintenance is often a few months, I have written down some of the steps as a reminder for myself. I am still getting familiar with git and VuePress. As such, this is definitely not a 'manual' to create your own Github pages.
+
+### Prerequisites
+
+- Node.js v12+
+- Yarn v1 classic
+
+### Installing VuePress locally
+
+````
+yarn add -D vuepress
+````
+
+Adding Google Analytics to the installation:
+
+````
+yarn add -D @vuepress/plugin-google-analytics
+````
+
+### Serving in local server and building static pages
+
+````
+yarn docs:dev
+yarn docs:build
+````
+
+### Deploying to 'gh-pages' branch
+
+````
+git add docs/.vuepress/dist && git commit -m "Deploying to gh-pages"
+git subtree push --prefix docs/.vuepress/dist origin gh-pages
+````

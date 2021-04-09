@@ -1,0 +1,42 @@
+module.exports = {
+  title: 'LaTeX Templates for Delft University of Technology',
+  description: 'Documentation for the improved TU Delft LaTeX report/thesis and article template. The design principle of these templates is to be simple and extensive.',
+  themeConfig: {
+    nav: [
+      { text: 'Report/Thesis Template', link: '/report/' },
+      { text: 'Article Template', link: '/article/' },
+      {
+        text: 'Learn More',
+        ariaLabel: 'Learn More Menu',
+        items: [
+          { text: 'About', link: '/about/' },
+          { text: 'Changelog', link: '/changelog/' },
+          { text: 'LaTeX Shortcuts', link: '/latex-shortcuts/' },
+        ]
+      }
+    ],
+    sidebar: {
+      '/report/': [
+        '',
+        'getting-started',
+        'faq',
+        'changelog',
+      ],
+      '/article/': [
+        '',
+        'getting-started',
+        'changelog',
+      ]
+    },
+    search: true,
+    searchMaxSuggestions: 10
+  },
+  plugins: [
+    [
+      '@vuepress/google-analytics',
+      {
+        'ga': 'UA-164114553-1' // UA-00000000-0
+      }
+    ]
+  ]
+}
