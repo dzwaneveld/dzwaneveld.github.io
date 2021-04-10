@@ -8,7 +8,7 @@ Answers to some of more common questions can be found below. A general knowledge
 
 ### How do I get as little/much text as possible on a single page?
 
-Meeting the page limit requirements is nothing more than using spacing creatively. As such, here is an incomplete list to change these some of the spacing. Changing the spacing has to be done in the class file (`layout/report-class.cls`), unless stated otherwise. In some cases, the spacing can be negative to reduce whitespace to the absolute minimum.
+Meeting the page limit requirements is nothing more than using spacing creatively. As such, here is an incomplete list to change some of these spacings. Changing the spacing has to be done in the class file (`layout/report-class.cls`), unless stated otherwise. In some cases, the spacing can be negative to reduce whitespace to the absolute minimum.
 
 - **Page margins**\
   The geometry of the page is defined with the command below. You could change the scale to your desire, replace it with a simple `margin=<length>` or fine-tune it with many different parameters. For the latter option, visit the [Overleaf Documentation](https://www.overleaf.com/learn/latex/page_size_and_margins#Fine_tuning_your_LaTeX_page_dimensions) on page size and margins.
@@ -31,7 +31,7 @@ Meeting the page limit requirements is nothing more than using spacing creativel
 
   To give some ideas: (1) the size of the chapter number is defined by `\fontsize{96}{96}`, (2) the size of the title is defined by `\Huge` and (3) the spacing between the title and the text is defined by `2\baselineskip`. The formatting of the sections is done in similar fashion. See [this question](/report/faq.html#how-can-i-adjust-the-titles) for a more details about the `\titleformat` command.
 
-  If you would like to move the chapter number to the same line as the chapter title, replace the titleformat command (line 1-5 in the previous code) with:
+  If you would like to move the chapter number to the same line as the chapter title, replace the titleformat command (line 1-5 in the previous code block) with:
 
   ```LaTeX
   \titleformat{\chapter}
@@ -116,8 +116,6 @@ Add the style as an option as seen below. If you are using multiple options, use
 ```LaTeX
 \RequirePackage[style=apa6]{biblatex}   % Manages bibliography
 ```
-
-[→ Related: How do I change the citation style?](/report/faq.html#how-do-i-change-the-citation-style)
 
 ### How do I change the sorting order of the entries?
 

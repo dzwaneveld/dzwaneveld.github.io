@@ -13,6 +13,7 @@ All the code related to the documentation can be found here. Feel free to send m
   + [Installing VuePress locally (with Google Analytics)](#installing-vuepress-locally-with-google-analytics)
   + [Serving in local server / building static pages](#serving-in-local-server--building-static-pages)
 * [Changelog](#changelog)
+  + [2.2.1 (10/04/2021)](#220-10042021)
   + [2.2.0 (09/04/2021)](#220-09042021)
   + [2.1.1 (12/02/2021)](#211-12022021)
   + [2.1.0 (07/02/2021)](#210-07022021)
@@ -43,6 +44,10 @@ yarn docs:build
 ````
 
 ## Changelog
+
+### 2.2.1 (10/04/2021)
+
+* Cleaned up some of the text and fixed some typos
 
 ### 2.2.0 (09/04/2021)
 

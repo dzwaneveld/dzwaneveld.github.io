@@ -32,15 +32,15 @@ This template is created for _pdfLaTeX_, but it is also compatible with _XeLaTeX
 In contrast to the report template, this template has been created over one semester for a single article. As such, there is likely more room for enhancements. Feel free to [contact me](/about.html#contact) if you have suggestions or encounter issues!
 :::
 
-## 1. Document Structure
+## Document Structure
 
-### 1.1 Structure
+### Structure
 
 As an article can become quite a lengthy document, the main sections (such as the introduction and methodology) are separated into different files for convenience. All these files are inserted in the master file, `main.tex`, using the `\input{filename}` command. The abstract, nomenclature, acknowledgment and appendix can be found in the master file instead. The document class, which can be found in `layout/tudelft-aiaa.cls`, is based on the article class by AIAA.
 
 Finally, the bibliography is added using `\bibliography{article.bib}`, which uses the file `article.bib`. If you would like to change the default bibliography file, change the command accordingly, which can be found in the master file. See Section 3 for more detail about the bibliography.
 
-### 1.2 Two Columns Option
+### Two Columns Option
 
 By default, the article is only one column. Switching to two columns can be done by using the `twocolumn` global option, resulting in the first line in `main.tex` as can be seen below.
 
@@ -59,14 +59,14 @@ Floats, such as figures and tables, will behave like 'normal' in `twocolumn` mod
 \end{figure*}
 ```
 
-## 2. Guidelines
+## Guidelines
 
 The Microsoft Word template for AE2223-I is the guiding template and nearly everything is taken care of in this template. In order to follow all guidelines regarding the article layout, the following information should still be noted:
 
 - Paragraphs that follow a blank line should not be indented. Use `\noindent` to correct these indentations locally if needed. This works automatically after headings (sections, etc.)
 - When referencing a figure or equation in text, `\autoref{}` will abbreviate to 'Fig.'' or 'Eq.' always. Use `\ref{}` at the beginning of sentences and write out 'Figure' or 'Equation' fully.
 
-## 3. Bibliography
+## Bibliography
 
 In the following sections, the most common entry types and (required/optional) fields per entry type are provided. Private communication or personal websites may only be incorporated in the main text or appear as footnotes. The DOI (digital object identifier) should always be given if it is available.
 

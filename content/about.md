@@ -15,7 +15,7 @@ Feel free to contact me if you have suggestions, encounter issues, or just want 
 
 * This documentation is hosted on [Github Pages](https://pages.github.com/) and has been created using [VuePress](https://vuepress.vuejs.org/).
 * The report/thesis template is inspired by the report template by Delft University of Technology. It can be found [here](https://www.tudelft.nl/en/tu-delft-corporate-design/downloads/).
-* The article template is based on the article template by AIAA and Overleaf. It is available under CC BY 4.0 and can be found [here](https://nl.overleaf.com/latex/templates/latex-template-for-the-preparation-of-papers-for-aiaa-technical-conferences/rsssbwthkptn).
+* The article template is based on the article template by AIAA and Overleaf. It is available under CC BY 4.0 and can be found [here](https://overleaf.com/latex/templates/latex-template-for-the-preparation-of-papers-for-aiaa-technical-conferences/rsssbwthkptn).
 
 ## Privacy Policy
 
