@@ -13,12 +13,6 @@ All the code related to the documentation can be found here. Feel free to send m
   + [Installing VuePress locally (with Google Analytics)](#installing-vuepress-locally-with-google-analytics)
   + [Serving in local server / building static pages](#serving-in-local-server--building-static-pages)
 * [Changelog](#changelog)
-  + [2.2.1 (10/04/2021)](#220-10042021)
-  + [2.2.0 (09/04/2021)](#220-09042021)
-  + [2.1.1 (12/02/2021)](#211-12022021)
-  + [2.1.0 (07/02/2021)](#210-07022021)
-  + [2.0.0 (27/06/2020)](#200-27062020)
-  + [1.0.0 (21/04/2020)](#100-21042020)
 
 ## Maintaining & Deploying
 
