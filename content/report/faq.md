@@ -95,6 +95,35 @@ In this example:
 
 Take a look at the other instances of `\titleformat` to see other possible parameters. If you are interested, take a look at [documentation for titlesec](http://mirrors.ctan.org/macros/latex/contrib/titlesec/titlesec.pdf).
 
+## Cover / Title Page
+
+### How do I get more authors on the cover (while staying organized)?
+
+With version 1.4.0 support has been added to use a table with authors on the cover. As the author will get added to the metadata of the PDF, any LaTeX code would cause errors. To solve this, the `\author{}` command now accepts an optional argument. If this argument is specified, the metadata will fall back on the optional argument. This will allow more freedom when adding authors to the cover:
+
+```LaTeX
+\author[<Authors w/o LaTeX code>]{<Table with Authors>}
+```
+
+An example can be found below. In this example, the metadata of the PDF will contain 'Group 01' as author. Depending on the size of the group, you might want to adjust the amount of columns and/or font size.
+
+```LaTeX
+\author[Group 01]{\fontsize{20.74}{20.74}\selectfont
+    \begin{tabularx}{\linewidth}{@{}XX}
+        D. Bernoulli (1234567) & I. Newton (9876543) \\
+        M. Curie (9876543) & A. Einstein (1234567) \\
+        W. Wright (1234567)  & O. Wright (9876543) \\
+    \end{tabularx}}
+```
+
+The preface will also fall back on the optional argument by default. The resulting cover can be seen below.
+
+<p align="center">
+  <img src="./img/example-report-table.jpg" alt="Report with Table on Cover" width="300" hspace=20 vspace=20 style='border:1px solid #fff; box-shadow: 4px -4px 0 #fff, 6px -6px 0 #c7c7c7, 10px -10px 0 #fff, 12px -12px 0 #c7c7c7'>
+</p>
+
+
+
 ## Bibliography / References
 
 ### How do I change the bibliography style?

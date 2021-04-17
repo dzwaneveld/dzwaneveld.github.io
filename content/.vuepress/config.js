@@ -10,7 +10,7 @@ module.exports = {
         text: 'Learn More',
         ariaLabel: 'Learn More Menu',
         items: [
-          { text: 'About', link: '/about/' },
+          { text: 'About', link: '/about.html' },
           { text: 'Changelog', link: 'https://github.com/dzwaneveld/dzwaneveld.github.io#changelog' },
         ]
       }

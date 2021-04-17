@@ -39,6 +39,13 @@ yarn docs:build
 
 ## Changelog
 
+### 2.3.0 (17/04/2021)
+
+* Updated report/thesis template to version 1.4.0
+* Added 'How do I get more authors on the cover (while staying organized)?' to FAQ
+* Made the report changelog much more extensive
+* Fixed some more issues and typos
+
 ### 2.2.1 (10/04/2021)
 
 * Cleaned up some of the text and fixed some typos

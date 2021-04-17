@@ -8,7 +8,7 @@
     <img src="./img/download-zip.svg" alt="Download">
   </a>
   <a href="https://github.com/dzwaneveld/TU-Delft-Unofficial-Report-Template/" target="_blank" rel="noopener noreferrer">
-    <img src="./img/version-1.3.svg" alt="Version 1.3" >
+    <img src="./img/version.svg" alt="Version 1.4" >
   </a>
   <a href="/about">
     <img src="./img/license-CC-BY-NC-4.0.svg" alt="License CC BY-NC 4.0">
@@ -63,7 +63,7 @@ Between `\begin{document}` and `\end{document}`, the content is split into three
 The template will automatically generate a cover when the `\makecover` command is used. Before generating the cover, some information has to be specified:
 
 - **Required:** `\title{Title}`, `\author{Author}`, `\coverimage{cover.jpg}`\
-These commands specify the title, author and cover image respectively. Try to make the title concise and add more information in the (optional) subtitle. As space is limited, the title page includes a table to specify student names and numbers when working in a larger group.
+These commands specify the title, author and cover image respectively. Try to make the title concise and add more information in the (optional) subtitle. As space is limited, the title page includes a table to specify student names and numbers when working in a larger group. Refer to the [FAQ](/report/faq.html#how-do-i-get-more-authors-on-the-cover-while-staying-organized) if you would like to add a table with author names on the cover.
 
 - **Optional:** `\subtitle{Subtitle}`, `\subject{Course Code: Name}`\
 The subtitle and subject are optional. The subtitle has no issues with line breaks and two lines will likely give the best result.
