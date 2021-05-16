@@ -50,19 +50,6 @@ Meeting the page limit requirements is nothing more than using spacing creativel
 
   To also change the vertical spacing between the text and the list, you can add `topsep=<length>` to this command (comma separated). In total there are four lengths used for vertical spacing, which you can find in [Section 1 of the documentation for enumitem](http://mirrors.ctan.org/macros/latex/contrib/enumitem/enumitem.pdf#section.1).
 
-- **Spacing around the floats**\
-  You can change the spacing around floats by defining a new length with `\setlength`. These are the main spacing definitions you can use and their default values:
-
-  ```LaTeX
-  \setlength{\intextsep}{12.0pt plus 2.0pt minus 2.0pt}     % Space above/below [h]
-  \setlength{\textfloatsep}{20.0pt plus 2.0pt minus 4.0pt}  % Space below [t]/above [b]
-  \setlength{\floatsep}{12.0pt plus 2.0pt minus 2.0pt}      % Vertical space between figures
-  \setlength{\abovecaptionskip}{10.0pt}                     % Vertical space before caption
-  \setlength{\belowcaptionskip}{0.0pt}                      % Vertical space after caption
-  ```
-
-  Avoid changing these lengths. The 'glue stretching' lengths give freedom (*plus* and *minus* length) to the compiler whenever the *fixed part* is insufficient. A visual representation of these parameters can be found in [Section 6.2 of the documentation for layouts](http://mirrors.ctan.org/macros/latex/contrib/layouts/layman.pdf).
-
 ### How can I adjust the titles?
 
 If you are looking to change the style of the titles (such as `\chapter{}` or `\section{}`), navigate to the class file (`layout/tudelft-report.cls`) and find the lines where these titles are formatted. The standard format used in this template is:
@@ -122,16 +109,14 @@ The preface will also fall back on the optional argument by default. The resulti
   <img src="./img/example-report-table.jpg" alt="Report with Table on Cover" width="300" hspace=20 vspace=20 style='border:1px solid #fff; box-shadow: 4px -4px 0 #fff, 6px -6px 0 #c7c7c7, 10px -10px 0 #fff, 12px -12px 0 #c7c7c7'>
 </p>
 
-
-
 ## Bibliography / References
 
 ### How do I change the bibliography style?
 
-The default style of BibLaTeX is numeric. You can change it by specifying a different style when the package is imported. Navigate to the class file (`layout/tudelft-report.cls`) and find the line where BibLaTeX is imported:
+The default style of BibLaTeX is numeric. You can change it by specifying a different style when the package is imported. Navigate to the main file (`report.tex`) and find the line where BibLaTeX is imported:
 
 ```LaTeX
-\RequirePackage{biblatex}   % Manages bibliography
+\usepackage{biblatex}
 ```
 
 Some of the more common bibliography styles you will likely use are:
@@ -143,15 +128,15 @@ Some of the more common bibliography styles you will likely use are:
 Add the style as an option as seen below. If you are using multiple options, use a comma to separate. Note that the style is **case-sensitive**.
 
 ```LaTeX
-\RequirePackage[style=apa6]{biblatex}   % Manages bibliography
+\usepackage[style=apa6]{biblatex}
 ```
 
 ### How do I change the sorting order of the entries?
 
-The default sorting order of BibLaTeX is by the author's last name. You can change it by specifying a different order when the package is imported. Navigate to the class file (`layout/tudelft-report.cls`) and find the line where BibLaTeX is imported:
+The default sorting order of BibLaTeX is by the author's last name. You can change it by specifying a different order when the package is imported. Navigate to the main file (`report.tex`) and find the line where BibLaTeX is imported:
 
 ```LaTeX
-\RequirePackage{biblatex}   % Manages bibliography
+\usepackage{biblatex}
 ```
 
 Select a sorting style:
@@ -168,7 +153,7 @@ Select a sorting style:
 Add the sorting style as an option as seen below. If you are using multiple options, use a comma to separate. Note that the sorting style is **case-sensitive**.
 
 ```LaTeX
-\RequirePackage[sorting=none]{biblatex}   % Manages bibliography
+\usepackage[sorting=none]{biblatex}
 ```
 
 ### How do I change the citation style?

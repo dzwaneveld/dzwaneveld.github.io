@@ -2,6 +2,12 @@
 
 I have not been particularly concise when it comes to versioning. As such, only version 1.2.1 and higher have a more extensive changelog. You should probably avoid version 1.0.x anyway.
 
+## 1.4.1 (16/05/2021)
+
+* **Features:**
+  * Moved all bibliography commands out of the class file. Changing the bibliography style (or other options) should now be done in the main file (`report.tex`)
+  * Moved all `.tex` files (except the main file) into different folders (`frontmatter`/`mainmatter`/`appendix`) to improve the organisation of all files
+
 ## 1.4.0 (17/04/2021)
 
 * **Features:**

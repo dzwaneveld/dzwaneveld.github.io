@@ -92,7 +92,7 @@ For fourth, the title color `fe860e` is recommended. For the final two, the titl
 
 ## Bibliography
 
-The bibliography is added using `\printbibliography` using the file `report.bib` and has been renamed to 'References' using the `title=References` option. If you would like to change the default bibliography file, change the command `\addbibresource{report.bib}` accordingly, which can be found in the class file. Check out [the FAQ](/report/faq.html#how-do-i-change-the-bibliography-style) if you would like to change the bibliography style.
+The bibliography is added with `\printbibliography` using the file `report.bib` and has been renamed to 'References' using the `title=References` option. If you would like to change the bibliography file, change the command `\addbibresource{report.bib}` in `report.tex` accordingly. Check out [the FAQ](/report/faq.html#how-do-i-change-the-bibliography-style) if you would like to change the bibliography style.
 
 Some examples of common types of references are included. An example of a book entry can be found below. This entry can be cited using `\cite{anderson-introduction-to-flight}`. The command accepts multiple entries, separated by a comma (`\cite{entry1,entry2,...}`).
 

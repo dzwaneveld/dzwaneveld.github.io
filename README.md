@@ -39,6 +39,10 @@ yarn docs:build
 
 ## Changelog
 
+### 2.3.1 (16/05/2021)
+
+* Updated report/thesis template to version 1.4.1
+
 ### 2.3.0 (17/04/2021)
 
 * Updated report/thesis template to version 1.4.0
