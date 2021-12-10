@@ -2,10 +2,8 @@
 home: true
 heroText: LaTeX Templates
 tagline: for Delft University of Technology
-footer: Copyright © 2020-2021 Daan Zwaneveld
+footer: Copyright © 2020-2022 Daan Zwaneveld
 ---
-
-With lacking easy-to-use report and article templates by TU Delft, these personal templates are now available publicly. The design principle of these templates is to be simple *and* extensive. Whether you are only changing the bibliography style, making major changes to the title page, or wanting to have full control over the layout, these templates aim to make that easier. The report/thesis and article template are available under the [CC BY-NC 4.0 license](https://creativecommons.org/licenses/by-nc/4.0/). No attribution is required in the reports, theses or articles created using the templates.
 
 ## Contact
 

@@ -1,35 +1,33 @@
 # Article Template
 
 <p>
-  <a href="https://www.overleaf.com/docs?snip_uri=https://github.com/dzwaneveld/TU-Delft-Unofficial-Article-Template/archive/master.zip" target="_blank" rel="noopener noreferrer">
-    <img src="./img/open-in-overleaf.svg" alt="Open in Overleaf">
+  <a href="https://www.overleaf.com/docs?snip_uri=https://github.com/dzwaneveld/TU-Delft-Unofficial-Article-Template/archive/master.zip" target="_blank" >
+    <img alt="Open in Overleaf" src="/badges/open-in-overleaf.svg">
   </a>
-  <a href="https://github.com/dzwaneveld/TU-Delft-Unofficial-Article-Template/archive/master.zip">
-    <img src="./img/download-zip.svg" alt="Download">
+  <a href="https://github.com/dzwaneveld/TU-Delft-Unofficial-Article-Template/archive/master.zip" >
+    <img alt="Download .zip" src="/badges/download-zip.svg" hspace="4">
   </a>
-  <a href="https://github.com/dzwaneveld/TU-Delft-Unofficial-Article-Template/" target="_blank" rel="noopener noreferrer">
-    <img src="./img/version-1.2.svg" alt="Version 1.2">
-  </a>
-  <a href="/about">
-    <img src="./img/license-CC-BY-NC-4.0.svg" alt="License CC BY-NC 4.0">
+  <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">
+    <img alt="License CC BY-NC 4.0" src="/badges/license.svg">
   </a>
 </p>
 
 This template is a simple article template following all the guidelines of AE2333-I, based on the official AIAA template. Some of the main features:
 
-* **Quick Start:** Many common packages are included by default to get started immediately.
-* **Switch Columns:** Use one column, or switch to two columns at any time with minimal effort.
+* **Effortless:** Many common packages are included by default to get started immediately;
+* **Switch Columns:** Use one column, or switch to two columns at any time with minimal effort;
 * **Extensive Bibliography:** A sample reference is included of the most common reference types to make sure all information is included.
 
 This template is created for _pdfLaTeX_, but it is also compatible with _XeLaTeX_ or _LuaLaTeX_. _Natbib_ is used for the bibliography with as backend _BibTeX_. If you would like to use it on Overleaf, click the button above to get started immediately.
 
 <p align="center">
-  <img src="./img/example-article.png" alt="Report Style" width="275" hspace="20" vspace="20" style='border:1px solid #c7c7c7; box-shadow: 4px -4px 0 #fff, 6px -6px 0 #c7c7c7, 10px -10px 0 #fff, 12px -12px 0 #c7c7c7'>
-  <img src="./img/example-article-twocolumn.png" alt="Report Classic Style" width="275" hspace="20" vspace="20" style='border:1px solid #c7c7c7; box-shadow: 4px -4px 0 #fff, 6px -6px 0 #c7c7c7, 10px -10px 0 #fff, 12px -12px 0 #c7c7c7'>
+  <img alt="Article Template" src="/images/article-template.jpg" width="40%" style='border:1px solid #c7c7c7'>
+&nbsp;
+  <img alt="Article Template Twocolumn" src="/images/article-template-twocolumn.jpg" width="40%" style='border:1px solid #c7c7c7'>
 </p>
 
 ::: tip
-In contrast to the report template, this template has been created over one semester for a single article. As such, there is likely more room for enhancements. Feel free to [contact me](/about.html#contact) if you have suggestions or encounter issues!
+In contrast to the report template, this template has been created over one semester for a single article. As such, there is likely more room for adjustments. Feel free to [contact me](/about.html#contact) if you have suggestions or encounter issues!
 :::
 
 ## Document Structure
@@ -44,13 +42,13 @@ Finally, the bibliography is added using `\bibliography{article.bib}`, which use
 
 By default, the article is only one column. Switching to two columns can be done by using the `twocolumn` global option, resulting in the first line in `main.tex` as can be seen below.
 
-```LaTeX
+```latex
 \documentclass[twocolumn]{layout/tudelft-aiaa}
 ```
 
 Floats, such as figures and tables, will behave like 'normal' in `twocolumn` mode and will therefore only occupy one column. In order to have a float span both columns (for example in combination with minipages or subfigures), an asterisk can be added to the environment. An example of a figure that will span both columns can be found below.
 
-```LaTeX
+```latex
 \begin{figure*}[ht]
     \centering
     \includegraphics[width=0.8\linewidth]{image.jpg}

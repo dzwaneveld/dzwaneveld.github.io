@@ -13,14 +13,14 @@ Meeting the page limit requirements is nothing more than using spacing creativel
 - **Page margins**\
   The geometry of the page is defined with the command below. You could change the scale to your desire, replace it with a simple `margin=<length>` or fine-tune it with many different parameters. For the latter option, visit the [Overleaf Documentation](https://www.overleaf.com/learn/latex/page_size_and_margins#Fine_tuning_your_LaTeX_page_dimensions) on page size and margins.
 
-  ```LaTeX
+  ```latex
   \geometry{a4paper,hscale=0.75,vscale=0.8}
   ```
 
 - **Titles (`\chapter`, `\section`, etc) and their spacing**\
   The titles and its spacings are defined by `\titleformat` and `\titlespacing`. For example, the `\chapter` is defined by:
 
-  ```LaTeX
+  ```latex
   \titleformat{\chapter}[display]
       {\flushright}
       {\fontsize{96}{96}\largetitlestyle\thechapter}
@@ -33,7 +33,7 @@ Meeting the page limit requirements is nothing more than using spacing creativel
 
   If you would like to move the chapter number to the same line as the chapter title, replace the titleformat command (line 1-5 in the previous code block) with:
 
-  ```LaTeX
+  ```latex
   \titleformat{\chapter}
     {\Huge\titlestyle\flushright}
     {\thechapter.}
@@ -44,7 +44,7 @@ Meeting the page limit requirements is nothing more than using spacing creativel
 - **Spacing between lists (itemize and enumerate)**\
   The default spacing between items has already been reduced slightly with the following:
 
-  ```LaTeX
+  ```latex
   \setlist{itemsep=-2pt}
   ```
 
@@ -54,7 +54,7 @@ Meeting the page limit requirements is nothing more than using spacing creativel
 
 If you are looking to change the style of the titles (such as `\chapter{}` or `\section{}`), navigate to the class file (`layout/tudelft-report.cls`) and find the lines where these titles are formatted. The standard format used in this template is:
 
-  ```LaTeX
+  ```latex
   \titleformat{<command>}[<shape>]
       {<format>}                        % Applied to title and label
       {<label>}                         % Specify label and format
@@ -64,7 +64,7 @@ If you are looking to change the style of the titles (such as `\chapter{}` or `\
 
 For example, the `\chapter{}` is formatted with the following lines:
 
-  ```LaTeX
+  ```latex
   \titleformat{\chapter}[display]
       {\flushright}
       {\fontsize{96}{96}\largetitlestyle\thechapter}
@@ -88,13 +88,13 @@ Take a look at the other instances of `\titleformat` to see other possible param
 
 With version 1.4.0 support has been added to use a table with authors on the cover. As the author will get added to the metadata of the PDF, any LaTeX code would cause errors. To solve this, the `\author{}` command now accepts an optional argument. If this argument is specified, the metadata will fall back on the optional argument. This will allow more freedom when adding authors to the cover:
 
-```LaTeX
+```latex
 \author[<Authors w/o LaTeX code>]{<Table with Authors>}
 ```
 
 An example can be found below. In this example, the metadata of the PDF will contain 'Group 01' as author. Depending on the size of the group, you might want to adjust the amount of columns and/or font size.
 
-```LaTeX
+```latex
 \author[Group 01]{\fontsize{20.74}{20.74}\selectfont
     \begin{tabularx}{\linewidth}{@{}XX}
         D. Bernoulli (1234567) & I. Newton (9876543) \\
@@ -106,7 +106,7 @@ An example can be found below. In this example, the metadata of the PDF will con
 The preface will also fall back on the optional argument by default. The resulting cover can be seen below.
 
 <p align="center">
-  <img src="./img/example-report-table.jpg" alt="Report with Table on Cover" width="300" hspace=20 vspace=20 style='border:1px solid #fff; box-shadow: 4px -4px 0 #fff, 6px -6px 0 #c7c7c7, 10px -10px 0 #fff, 12px -12px 0 #c7c7c7'>
+  <img alt="Report Template Author Table" src="/images/report-template-faq-authors.jpg" width="300">
 </p>
 
 ## Bibliography / References
@@ -115,7 +115,7 @@ The preface will also fall back on the optional argument by default. The resulti
 
 The default style of BibLaTeX is numeric. You can change it by specifying a different style when the package is imported. Navigate to the main file (`report.tex`) and find the line where BibLaTeX is imported:
 
-```LaTeX
+```latex
 \usepackage{biblatex}
 ```
 
@@ -127,7 +127,7 @@ Some of the more common bibliography styles you will likely use are:
 
 Add the style as an option as seen below. If you are using multiple options, use a comma to separate. Note that the style is **case-sensitive**.
 
-```LaTeX
+```latex
 \usepackage[style=apa6]{biblatex}
 ```
 
@@ -135,7 +135,7 @@ Add the style as an option as seen below. If you are using multiple options, use
 
 The default sorting order of BibLaTeX is by the author's last name. You can change it by specifying a different order when the package is imported. Navigate to the main file (`report.tex`) and find the line where BibLaTeX is imported:
 
-```LaTeX
+```latex
 \usepackage{biblatex}
 ```
 
@@ -152,7 +152,7 @@ Select a sorting style:
 
 Add the sorting style as an option as seen below. If you are using multiple options, use a comma to separate. Note that the sorting style is **case-sensitive**.
 
-```LaTeX
+```latex
 \usepackage[sorting=none]{biblatex}
 ```
 

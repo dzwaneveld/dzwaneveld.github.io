@@ -21,29 +21,36 @@ As the time between maintenance is often a few months, I have written down some 
 ### Prerequisites
 
 - Node.js v12+
-- Yarn v1 classic
 
 ### Installing VuePress locally (with Google Analytics)
 
 ````
-yarn add -D vuepress
-yarn add -D @vuepress/plugin-google-analytics
+npm install -D vuepress@next
+npm i -D @vuepress/plugin-google-analytics@next
 ````
 
 ### Serving in local server / building static pages
 
 ````
-yarn docs:dev
-yarn docs:build
+npm run docs:dev
+npm run docs:build
 ````
 
 ## Changelog
+
+### 2.4 (16/05/2021)
+
+* Migrated from VuePress v1 to VuePress v2
+* Reduced size of images to save some bandwidth
+* Reworded some sentences to make them more concise
+* Changed the home page, because I was too lazy to adjust the theme when migrating and this looks fine as well
+* Added a few typos probably
 
 ### 2.3.1 (16/05/2021)
 
 * Updated report/thesis template to version 1.4.1
 
-### 2.3.0 (17/04/2021)
+### 2.3 (17/04/2021)
 
 * Updated report/thesis template to version 1.4.0
 * Added 'How do I get more authors on the cover (while staying organized)?' to FAQ
@@ -54,7 +61,7 @@ yarn docs:build
 
 * Cleaned up some of the text and fixed some typos
 
-### 2.2.0 (09/04/2021)
+### 2.2 (09/04/2021)
 
 * Changed some of the setup & updated README.md
 * Simplified & refined parts of the documentation
@@ -63,17 +70,17 @@ yarn docs:build
 
 * Added 'How do I get as little/much text as possible on a single page?' to FAQ
 
-### 2.1.0 (07/02/2021)
+### 2.1 (07/02/2021)
 
 * Added FAQ to report template documentation
 * Refined some of the documentation
 
-### 2.0.0 (27/06/2020)
+### 2.0 (27/06/2020)
 
 * Added documentation for the report/thesis template
 * Restructured the documentation for the article template
 * Switched to [VuePress](https://vuepress.vuejs.org/) to generate the static webpages
 
-### 1.0.0 (21/04/2020)
+### 1.0 (21/04/2020)
 
 * Added documentation for the article template
