@@ -1,6 +1,11 @@
 # Changelog
 
-I have not been particularly concise when it comes to versioning. As such, only version 1.2.1 and higher have a more extensive changelog. You should probably avoid version 1.0.x anyway.
+I have not been particularly concise when it comes to versioning. As such, only version 1.2.1 and higher have a more extensive changelog. You should probably avoid version 1.0.x and 1.1.x anyway.
+
+## 1.4.2 (01/01/2022)
+
+* **Fixes:**
+  * Documentation inside the document is now more consistent
 
 ## 1.4.1 (16/05/2021)
 

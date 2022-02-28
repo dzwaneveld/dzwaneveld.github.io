@@ -133,7 +133,7 @@ Add the style as an option as seen below. If you are using multiple options, use
 
 ### How do I change the sorting order of the entries?
 
-The default sorting order of BibLaTeX is by the author's last name. You can change it by specifying a different order when the package is imported. Navigate to the main file (`report.tex`) and find the line where BibLaTeX is imported:
+The default sorting order of BibLaTeX is by the authors' last name. You can change it by specifying a different order when the package is imported. Navigate to the main file (`report.tex`) and find the line where BibLaTeX is imported:
 
 ```latex
 \usepackage{biblatex}

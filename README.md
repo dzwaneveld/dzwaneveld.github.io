@@ -38,7 +38,12 @@ npm run docs:build
 
 ## Changelog
 
-### 2.4 (16/05/2021)
+### 28/02/2022
+
+* Updated report/thesis template to version 1.4.2
+* Fixed some typos
+
+### 10/12/2021
 
 * Migrated from VuePress v1 to VuePress v2
 * Reduced size of images to save some bandwidth
@@ -46,41 +51,41 @@ npm run docs:build
 * Changed the home page, because I was too lazy to adjust the theme when migrating and this looks fine as well
 * Added a few typos probably
 
-### 2.3.1 (16/05/2021)
+### 16/05/2021
 
 * Updated report/thesis template to version 1.4.1
 
-### 2.3 (17/04/2021)
+### 17/04/2021
 
 * Updated report/thesis template to version 1.4.0
 * Added 'How do I get more authors on the cover (while staying organized)?' to FAQ
 * Made the report changelog much more extensive
 * Fixed some more issues and typos
 
-### 2.2.1 (10/04/2021)
+### 10/04/2021
 
 * Cleaned up some of the text and fixed some typos
 
-### 2.2 (09/04/2021)
+### 09/04/2021
 
 * Changed some of the setup & updated README.md
 * Simplified & refined parts of the documentation
 
-### 2.1.1 (12/02/2021)
+### 12/02/2021
 
 * Added 'How do I get as little/much text as possible on a single page?' to FAQ
 
-### 2.1 (07/02/2021)
+### 07/02/2021
 
 * Added FAQ to report template documentation
 * Refined some of the documentation
 
-### 2.0 (27/06/2020)
+### 27/06/2020
 
 * Added documentation for the report/thesis template
 * Restructured the documentation for the article template
 * Switched to [VuePress](https://vuepress.vuejs.org/) to generate the static webpages
 
-### 1.0 (21/04/2020)
+### 21/04/2020
 
 * Added documentation for the article template

@@ -62,7 +62,7 @@ Floats, such as figures and tables, will behave like 'normal' in `twocolumn` mod
 The Microsoft Word template for AE2223-I is the guiding template and nearly everything is taken care of in this template. In order to follow all guidelines regarding the article layout, the following information should still be noted:
 
 - Paragraphs that follow a blank line should not be indented. Use `\noindent` to correct these indentations locally if needed. This works automatically after headings (sections, etc.)
-- When referencing a figure or equation in text, `\autoref{}` will abbreviate to 'Fig.'' or 'Eq.' always. Use `\ref{}` at the beginning of sentences and write out 'Figure' or 'Equation' fully.
+- When referencing a figure or equation in text, `\autoref{}` will abbreviate to 'Fig.' or 'Eq.' always. Use `\ref{}` at the beginning of sentences and write out 'Figure' or 'Equation' fully.
 
 ## Bibliography
 
