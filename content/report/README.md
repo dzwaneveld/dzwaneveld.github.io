@@ -12,95 +12,80 @@
   </a>
 </p>
 
+::: details <u>Important changes in version 1.5 (17/03/2022)</u>
+As the TU Delft stopped providing downloads for their LaTeX templates, this template has been changed slightly to accommodate a more general audience. Please note the following:
+
+- The optional parameter that was added to the `\author{}` command has been removed. Use `\covertable{}` instead. More information can be found [here](/report/faq.html#how-do-i-add-a-table-with-authors-on-the-cover-page).
+- A title page for theses is now available: `title-thesis.tex`
+- The package `cleveref` is now included and is the recommended package for cross-referencing (to figures, sections, equations, etc). See [here](/report/faq.html#cross-referencing-with-cleveref) for more information.
+- Support for including source code has been added to the class file with the package `listings`. An example has been included in Appendix A.
+
+The full changelog can be found [here](/report/changelog.html#_1-5-17-03-2022).
+:::
+
 This template aims to simplify and improve the (Xe)LaTeX report template by Delft University of Technology. Some of the main features:
 
-* **Simplicity First:** A class file that has been reduced by over 60% to simplify customization;
+* **Simplicity First:** A class file that has been reduced by nearly 70% to simplify customization;
 * **Effortless:** Many common packages are included to get started immediately;
-* **Complete:** Ready-to-go when it comes to file structure and files such as the nomenclature.
+* **Complete:** Ready-to-go when it comes to document and file structure.
 
 This template works with _pdfLaTeX_, _XeLaTeX_ and _LuaLaTeX_. In order to adhere to the TU Delft house style, either _XeLaTeX_ or _LuaLaTeX_ is required, as it supports TrueType and OpenType fonts. _BibLaTeX_ is used for the bibliography with as backend _biber_. If you would like to use it on Overleaf, click the badge above to get started immediately.
 
 <p align="center">
-  <img alt="Report Template" src="/images/report-template.jpg" width="40%" style='border:1px solid transparent'>
+  <img alt="TU Delft LaTeX Report Template" src="/images/report-template.jpg" width="30%" style='border:1px solid transparent'>
 &nbsp;
-  <img alt="Report Template Chapter" src="/images/report-template-chapter.jpg" width="40%" style='border:1px solid #c7c7c7'>
+  <img alt="TU Delft LaTeX Report Template Title Page" src="/images/report-template-title.jpg" width="30%" style='border:1px solid #c7c7c7'>
+&nbsp;
+  <img alt="TU Delft LaTeX Report Template Chapter Page" src="/images/report-template-chapter.jpg" width="30%" style='border:1px solid #c7c7c7'>
 </p>
 
-::: tip
-On this page, you will find a general outline of the template. If you have specific questions, you might want to visit the [FAQ](/report/faq.html) instead.
+::: tip Any questions?
+Visit the [FAQ](/report/faq.html) to see if that answers your question. Otherwise, feel free to [contact me](/about.html#contact). The same obviously holds true for suggestions or if you encounter issues!
 :::
 
-## Document Structure
+## Structure of the Template
 
-### File Structure and Custom Global Options
+### File Structure and Document Class
 
-As a report/thesis is generally a substantial document, the chapters and appendices have been separated into different files and folders for convenience. All these files are inserted in the master file, `report.tex`, using the `\input{filename}` command. The document class, which can be found in `layout/tudelft-report.cls`, is based on the LaTeX book class. The class currently has one custom option:
+As a report/thesis is generally a substantial document, the chapters and appendices have been separated into different files and folders for convenience. All these files are inserted in the main file, `report.tex`, using the `\input{filename}` command. The document class, which can be found in `layout/tudelft-report.cls`, is based on the LaTeX book class.
 
-- **twoside**: If this option is specified, the margins and headers are adjusted, and empty pages are added to resemble a printed (double-sided) book layout. Especially useful when printing the document.
+The document class has one custom option. The default option can be changed by adding the chosen option to the first line in the master file. Note that the option is case-sensitive.
 
-The default option can be changed by adding the chosen option to the first line in the master file. Note that the option is case-sensitive.
+- **twoside**: margins and headers are adjusted and empty pages are added to resemble a printed (double-sided) book layout.
 
 ```latex
-\documentclass[twoside,<option2>,<option3>,...]{layout/tudelft-report}
+\documentclass[twoside,<option2>,...]{layout/tudelft-report}
 ```
 
-### Structure within the Document
+### Document Structure
 
 Between `\begin{document}` and `\end{document}`, the document is split into three parts by:
 
-- `\frontmatter` uses Roman numerals for page numbering and is used for the title page, preface, summary, table of contents, nomenclature and list of tables/figures. The title page, preface, summary and nomenclature can be found in the folder `/frontmatter`. The nomenclature uses *longtables*, which allows tables to flow over page boundaries;
+- `\frontmatter` uses Roman numerals for page numbering and is used for the title page, preface, summary, table of contents and nomenclature. The title page, preface, summary and nomenclature can be found in the folder `/frontmatter`. The nomenclature uses the package `longtables`, which allows tables to flow over page boundaries;
 
-- `\mainmatter` uses Arabic numerals for page and chapter numbering. The bibliography is added using `\printbibliography` using the file `report.bib`. See [Section 3](/report/#bibliography) for more details;
+- `\mainmatter` uses Arabic numerals for page and chapter numbering. The introduction, conclusion and two additional chapter files can be found in the folder `/mainmatter`. The bibliography is added with `\printbibliography` using the file `report.bib`. See [here](/report/#bibliography) for more details;
 
-- `\appendix` uses letters for the chapter numbering.
+- `\appendix` uses letters for the chapter numbering. Two chapters with an example with source code and a task division have been included respectively and can be found in the folder `/appendix`.
 
 ## Cover and Title Page
 
-### Information on the Cover and Title Page
+The template will automatically generate a cover when the `\makecover` command is used. Beforehand, some information will have to be specified. The title, subtitle and author will also be present on the title page. Additionally, the author will be added to the preface.
 
-The template will automatically generate a cover when the `\makecover` command is used. Before generating the cover, some information has to be specified:
+- **Required for cover and title page:** `\title{...}`, `\author{...}`\
+Try to make the title concise and add more information in the optional subtitle. As space is limited, the report title page includes a table to specify student names and numbers when working in a larger group. Refer to the [FAQ](/report/faq.html#how-do-i-add-a-table-with-authors-on-the-cover-page) if you would like to add a table with authors on the cover.
 
-- **Required:** `\title{Title}`, `\author{Author}`, `\coverimage{cover.jpg}`\
-Try to make the title concise and add more information in the (optional) subtitle. As space is limited, the title page includes a table to specify student names and numbers when working in a larger group. Refer to the [FAQ](/report/faq.html#how-do-i-get-more-authors-on-the-cover-while-staying-organized) if you would like to add a table with author names on the cover.
+- **Required for cover page only:** `\coverimage{...}`, `\definecolor{title}{HTML}{...}`\
+The recommended aspect ratio of the image is 2:3 (portrait). The color of the title is defined with the second command. In this form, it accepts HTML color codes, but switching to rgb, cmyk and other models is also possible. Take a look at the [Overleaf guide](https://www.overleaf.com/learn/latex/Using_colours_in_LaTeX#Creating_your_own_colours) for more details.
 
-- **Optional:** `\subtitle{Subtitle}`, `\subject{AB1234: Course Name}`
+- **Optional:** `\subtitle{...}`, `\subject{...}`, `\affiliation{...}`
 
-The title, subtitle and author will also be present on the title page. To give greater flexibility over the title page, the layout is specified in `title.tex`. Modify this file according to your needs and make sure to check the requirements.
-
-### Included Cover Images
-
-Six high quality cover images related to aerospace engineering have been included. Make sure to appropriately credit the image if you decide to use one of them. A preview can be seen below.
-
-<p align="center">
-  <img alt="Report Template Cover 1" src="/images/report-template-cover-1.jpg" width="25%">
-&nbsp;
-  <img alt="Report Template Cover 2" src="/images/report-template-cover-2.jpg" width="25%">
-&nbsp;
-  <img alt="Report Template Cover 3" src="/images/report-template-cover-3.jpg" width="25%">
-</p>
-
-<p align="center">
-  <img alt="Report Template Cover 4" src="/images/report-template-cover-4.jpg" width="25%">
-&nbsp;
-  <img alt="Report Template Cover 5" src="/images/report-template-cover-5.jpg" width="25%">
-&nbsp;
-  <img alt="Report Template Cover 6" src="/images/report-template-cover-6.jpg" width="25%">
-</p>
-
-For the first three images, the title color `4884d6` is recommended. For fourth, the title color `fe860e` is recommended. For the final two, the title color `e3a01b` is recommended. A description with the attribution and license can be found below:
-
-* `cover1.jpg`: Storm Cell Over the Southern Appalachian Mountains by NASA/Stu Broce under CC BY 2.0
-* `cover2.jpg`: Canadarm 2 Robotic Arm Grapples SpaceX Dragon by NASA under CC BY-NC 2.0 // Modified
-* `cover3.jpg`: City Lights of Africa, Europe, and the Middle East by NASA Earth Observatory under CC BY 2.0
-* `cover4.jpg`: Royal Air Force Voyager Transport Tanker Aircraft by Ministry of Defense/Cpl Ashley Keates under OGL v1.0
-* `cover5.jpg`: Aircraft Flying in the Sunset by Gerhard Gellinger
-* `cover6.jpg`: F18 at Bodo Air Base Norway by Ministerio de Defensa España under CC BY-NC 2.0
+To give greater flexibility over the title page, the layout is specified in `title-report.tex`. A title page for theses is also available: `title-thesis.tex`. Change the corresponding `\input{...}` command in the main file to switch. Make sure to check the requirements and modify the file according to your needs.
 
 ## Bibliography
 
 The bibliography is added with `\printbibliography` using the file `report.bib` and has been renamed to 'References' using the `title=References` option. If you would like to change the bibliography file, change the command `\addbibresource{report.bib}` in `report.tex` accordingly. Check out [the FAQ](/report/faq.html#how-do-i-change-the-bibliography-style) if you would like to change the bibliography style.
 
-Some examples of common types of references are included. An example of a book entry can be found below. This entry can be cited using `\cite{anderson-introduction-to-flight}`. The command accepts multiple entries, separated by a comma (`\cite{<entry1>,<entry2>,...}`).
+Some examples of common types of references are included. Another example of a book entry can be found below. In this case, the entry can be cited using `\cite{anderson-introduction-to-flight}`. The command accepts multiple entries, separated by a comma (`\cite{<entry1>,<entry2>,...}`).
 
 ```
 @book{anderson-introduction-to-flight,

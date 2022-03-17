@@ -1,6 +1,6 @@
 module.exports = {
   title: 'LaTeX Templates for Delft University of Technology',
-  description: 'Improved TU Delft LaTeX report/thesis and article templates. Easy-to-use templates thanks to their simplicity, complex enough for extensive documents.',
+  description: 'Improved TU Delft LaTeX report/thesis and article templates. Easy-to-use thanks to their simplicity, complex enough for extensive documents.',
   dest: 'docs',
   themeConfig: {
     navbar: [
@@ -47,6 +47,7 @@ module.exports = {
       ],
     },
     sidebarDepth: 1,
+    contributors: false,
   },
   plugins: [
     [

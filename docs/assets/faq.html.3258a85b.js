@@ -1,1 +1,0 @@
-const e={key:"v-6cb0dd75",path:"/article/faq.html",title:"FAQ",lang:"en-US",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1617998358e3,contributors:[{name:"dzwaneveld",email:"51077132+dzwaneveld@users.noreply.github.com",commits:1}]},filePathRelative:"article/faq.md"};export{e as data};

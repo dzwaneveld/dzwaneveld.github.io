@@ -1,6 +1,22 @@
 # Changelog
 
-I have not been particularly concise when it comes to versioning. As such, only version 1.2.1 and higher have a more extensive changelog. You should probably avoid version 1.0.x and 1.1.x anyway.
+## 1.5 (17/03/2022)
+
+* **Packages:**
+  * Added `cleveref`, `listings` and `pdfpages` to the class file
+  * Replaced `amsmath` with `mathtools` (the latter imports the former however)
+  * Removed `tocbibind`
+* **Features**:
+  * The behaviour of the `\author{}` command has been reverted and a new command `\covertable{}` has been introduced to allow a table of authors on the cover page
+  * Support for including source code (and source code files) has been added to the class file with the package `listings`. Some sample code has been included in Appendix A
+  * The title page has been changed slightly and has been renamed to `title-report.tex`. A title page for theses is now included: `title-thesis.tex`
+  * Removed all hardcoded English in the class file to make it easier to switch to Dutch (or any other language) if desired. Added a `\affiliation{}` command for example.
+  * A Palatino-like font is now used if the compiler is set to pdfLaTeX
+* **Fixes:**
+  * Revisited the class file to increase readability, simplified a few commands and improved a few others
+  * The list of figures and tables are no longer enabled by default
+  * The redundant, somewhat not up to standard, documentation inside the document has been simplified or removed.
+  * To reduce file size, the previously included cover images can now be found in the FAQ
 
 ## 1.4.2 (01/01/2022)
 
@@ -13,10 +29,10 @@ I have not been particularly concise when it comes to versioning. As such, only 
   * Moved all bibliography commands out of the class file. Changing the bibliography style (or other options) should now be done in the main file (`report.tex`)
   * Moved all `.tex` files (except the main file) into different folders (`frontmatter`/`mainmatter`/`appendix`) to improve the organisation of all files
 
-## 1.4.0 (17/04/2021)
+## 1.4 (17/04/2021)
 
 * **Features:**
-  * Added support for a table of authors on the cover. The `\author[]{}` command now has an optional argument, which is used for the metadata in case it is defined. Any LaTeX code in the main argument will then no longer cause issues. An example table on the cover can be found in the FAQ
+  * Added support for a table of authors on the cover. See the FAQ for more information and an example.
 * **Fixes:**
   * `\makecover` will now issue a `\newpage` at the end. In some very specific cases, the table of contents could get superimposed on the cover
   * Removed a command that made changes to the bibliography spacing because it did very little
@@ -32,7 +48,7 @@ I have not been particularly concise when it comes to versioning. As such, only 
   * No visual changes, but formatting of titles is now more consistent
   * Reworded some text in the README.md to make it more concise and consistent
 
-## 1.3.0 (27/06/2020)
+## 1.3 (27/06/2020)
 
 * **Packages:** Added `multirow` and `iftex`
 * **Features:**
@@ -53,14 +69,14 @@ I have not been particularly concise when it comes to versioning. As such, only 
   * The bibliography style and sorting order is now the BibLaTeX default. As such, changing to a different bibliography style will now be easier.
   * Addresses of the included bibliography entries are now more complete
 
-## 1.2.0 (05/02/2020)
+## 1.2 (05/02/2020)
 
 * **Features:**
   * Added more cover images. A detailed list with all attributions can be found on the next page. All images can be used and distributed freely if appropriate credit is given (all use a CC BY 2.0 license or similar)
 
 \+ Other minor adjustments and fixes
 
-## 1.1.0 (27/12/2019)
+## 1.1 (27/12/2019)
 
 * **Features:**
   * Removed Natbib in favor of BibLaTeX. Adds more database entry types (e.g. @online) and other minor improvements. Refer to [Section 2.1.1](http://mirrors.ctan.org/macros/latex/contrib/biblatex/doc/biblatex.pdf#subsubsection.2.1.1) of the documentation of BibLaTeX to learn more about the various default types and the fields accepted per type.
@@ -70,7 +86,7 @@ I have not been particularly concise when it comes to versioning. As such, only 
 
 \+ Other minor adjustments and fixes
 
-## 1.0.0 (27/09/2019)
+## 1.0 (27/09/2019)
 
 * Rewritten class file to improve readability and simplify modifications
 * Redesigned the cover page

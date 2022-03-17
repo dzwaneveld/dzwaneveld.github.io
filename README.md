@@ -38,6 +38,12 @@ npm run docs:build
 
 ## Changelog
 
+### 17/03/2022
+
+* Updated documentation of the report/thesis template to v1.5
+* Added more FAQ entries to the report/thesis documentation
+* Changed a sentence or two in some other places as well
+
 ### 28/02/2022
 
 * Updated report/thesis template to version 1.4.2

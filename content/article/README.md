@@ -21,12 +21,12 @@ This template is a simple article template following all the guidelines of AE233
 This template is created for _pdfLaTeX_, but it is also compatible with _XeLaTeX_ or _LuaLaTeX_. _Natbib_ is used for the bibliography with as backend _BibTeX_. If you would like to use it on Overleaf, click the button above to get started immediately.
 
 <p align="center">
-  <img alt="Article Template" src="/images/article-template.jpg" width="40%" style='border:1px solid #c7c7c7'>
+  <img alt="TU Delft LaTeX Article Template" src="/images/article-template.jpg" width="40%" style='border:1px solid #c7c7c7'>
 &nbsp;
-  <img alt="Article Template Twocolumn" src="/images/article-template-twocolumn.jpg" width="40%" style='border:1px solid #c7c7c7'>
+  <img alt="TU Delft LaTeX Article Template Twocolumn" src="/images/article-template-twocolumn.jpg" width="40%" style='border:1px solid #c7c7c7'>
 </p>
 
-::: tip
+::: tip Suggestions or encounter issues?
 In contrast to the report template, this template has been created over one semester for a single article. As such, there is likely more room for adjustments. Feel free to [contact me](/about.html#contact) if you have suggestions or encounter issues!
 :::
 
