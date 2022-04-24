@@ -1,3 +1,3 @@
 # FAQ
 
-Still pretty empty, eh? Feel free to [contact me](/about.html#contact) if you have questions!
+Still pretty empty, eh? Feel free to [contact me](/contact.html) if you have questions!

@@ -13,23 +13,19 @@ module.exports = {
         link: '/article/',
       },
       {
-        text: 'Learn More',
+        text: 'About',
         children: [
           {
-            text: 'About',
-            link: '/about.html',
+            text: 'Contact',
+            link: '/contact.html',
+          },
+          {
+            text: 'License',
+            link: '/license.html',
           },
           {
             text: 'Changelog',
-            link: 'https://github.com/dzwaneveld/dzwaneveld.github.io#changelog'
-          },
-          {
-            text: 'Report on Github',
-            link: 'https://github.com/dzwaneveld/TU-Delft-Unofficial-Report-Template'
-          },
-          {
-            text: 'Article on Github',
-            link: 'https://github.com/dzwaneveld/TU-Delft-Unofficial-Article-Template'
+            link: '/changelog.html'
           },
         ]
       },
@@ -48,6 +44,7 @@ module.exports = {
     },
     sidebarDepth: 1,
     contributors: false,
+    lastUpdated: false,
   },
   plugins: [
     [

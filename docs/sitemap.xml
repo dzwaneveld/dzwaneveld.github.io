@@ -7,10 +7,6 @@
   </url>
 
   <url>
-    <loc>https://dzwaneveld.github.io/about.html</loc>
-  </url>
-
-  <url>
     <loc>https://dzwaneveld.github.io/report/</loc>
   </url>
 
@@ -32,6 +28,18 @@
 
   <url>
     <loc>https://dzwaneveld.github.io/article/changelog.html</loc>
+  </url>
+
+  <url>
+    <loc>https://dzwaneveld.github.io/contact.html</loc>
+  </url>
+
+  <url>
+    <loc>https://dzwaneveld.github.io/license.html</loc>
+  </url>
+
+  <url>
+    <loc>https://dzwaneveld.github.io/changelog.html</loc>
   </url>
 
 </urlset>

@@ -1,6 +1,6 @@
 # FAQ
 
-Answers to some of the more common questions can be found below. A general knowledge of LaTeX is assumed. As only the basics are described here, you might want to take a look at the documentation of the package in question if you have very specific questions or if you would like more information. Feel free to [contact me](/about.html#contact) if you have more questions.
+Answers to some of the more common questions can be found below. A general knowledge of LaTeX is assumed. As only the basics are described here, you might want to take a look at the documentation of the package in question if you have very specific questions or if you would like more information. Feel free to [contact me](/contact.html) if you have more questions.
 
 [[toc]]
 

@@ -7,8 +7,8 @@
   <a href="https://github.com/dzwaneveld/TU-Delft-Unofficial-Article-Template/archive/master.zip" >
     <img alt="Download .zip" src="/badges/download-zip.svg" hspace="4">
   </a>
-  <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">
-    <img alt="License CC BY-NC 4.0" src="/badges/license.svg">
+  <a href="https://github.com/dzwaneveld/TU-Delft-Unofficial-Article-Template" target="_blank">
+    <img alt="Visit Github repository" src="/badges/visit-github-repository.svg">
   </a>
 </p>
 
@@ -27,7 +27,7 @@ This template is created for _pdfLaTeX_, but it is also compatible with _XeLaTeX
 </p>
 
 ::: tip Suggestions or encounter issues?
-In contrast to the report template, this template has been created over one semester for a single article. As such, there is likely more room for adjustments. Feel free to [contact me](/about.html#contact) if you have suggestions or encounter issues!
+In contrast to the report template, this template has been created over one semester for a single article. As such, there is likely more room for adjustments. Feel free to [contact me](/contact.html) if you have suggestions or encounter issues!
 :::
 
 ## Document Structure

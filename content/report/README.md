@@ -7,27 +7,16 @@
   <a href="https://github.com/dzwaneveld/TU-Delft-Unofficial-Report-Template/archive/master.zip" >
     <img alt="Download .zip" src="/badges/download-zip.svg" hspace="4">
   </a>
-  <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">
-    <img alt="License CC BY-NC 4.0" src="/badges/license.svg">
+  <a href="https://github.com/dzwaneveld/TU-Delft-Unofficial-Report-Template" target="_blank">
+    <img alt="Visit Github repository" src="/badges/visit-github-repository.svg">
   </a>
 </p>
-
-::: details <u>Important changes in version 1.5 (17/03/2022)</u>
-As the TU Delft stopped providing downloads for their LaTeX templates, this template has been changed slightly to accommodate a more general audience. Please note the following:
-
-- The optional parameter that was added to the `\author{}` command has been removed. Use `\covertable{}` instead. More information can be found [here](/report/faq.html#how-do-i-add-a-table-with-authors-on-the-cover-page).
-- A title page for theses is now available: `title-thesis.tex`
-- The package `cleveref` is now included and is the recommended package for cross-referencing (to figures, sections, equations, etc). See [here](/report/faq.html#cross-referencing-with-cleveref) for more information.
-- Support for including source code has been added to the class file with the package `listings`. An example has been included in Appendix A.
-
-The full changelog can be found [here](/report/changelog.html#_1-5-17-03-2022).
-:::
 
 This template aims to simplify and improve the (Xe)LaTeX report template by Delft University of Technology. Some of the main features:
 
 * **Simplicity First:** A class file that has been reduced by nearly 70% to simplify customization;
-* **Effortless:** Many common packages are included to get started immediately;
-* **Complete:** Ready-to-go when it comes to document and file structure.
+* **Effortless:** A careful selection of common packages to get started immediately;
+* **Complete:** Ready-to-go when it comes to the document and file structure.
 
 This template works with _pdfLaTeX_, _XeLaTeX_ and _LuaLaTeX_. In order to adhere to the TU Delft house style, either _XeLaTeX_ or _LuaLaTeX_ is required, as it supports TrueType and OpenType fonts. _BibLaTeX_ is used for the bibliography with as backend _biber_. If you would like to use it on Overleaf, click the badge above to get started immediately.
 
@@ -40,7 +29,7 @@ This template works with _pdfLaTeX_, _XeLaTeX_ and _LuaLaTeX_. In order to adher
 </p>
 
 ::: tip Any questions?
-Visit the [FAQ](/report/faq.html) to see if that answers your question. Otherwise, feel free to [contact me](/about.html#contact). The same obviously holds true for suggestions or if you encounter issues!
+Visit the [FAQ](/report/faq.html) to see if that answers your question. If you still have unanswered questions, suggestions or encounter issues, feel free to [contact me](/contact.html).
 :::
 
 ## Structure of the Template

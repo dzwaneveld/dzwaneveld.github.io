@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.5.1 (24/04/2022)
+
+* **Features**:
+  * Added `\titlestyle` to all titles which are not already `\largetitlestyle` to simplify customization. Defined with `\normalfont` by default
+* **Fixes**:
+  * Fixed a few issues that have no functional impact, but make the template more concise
+
 ## 1.5 (17/03/2022)
 
 * **Packages:**
