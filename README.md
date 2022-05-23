@@ -1,6 +1,7 @@
 # LaTeX Templates for Delft University of Technology
 
-All the code related to the documentation can be found here. Feel free to send me an email (see [here](https://dzwaneveld.github.io/contact.html)) or create an issue in the appropriate repository if you have questions, suggestions or encounter issues:
+Everything related to the documentation of the LaTeX templates can be found here. Feel free to contact me with questions, suggestions or issues related to the templates or this documentation. You can send an email (see [here](https://dzwaneveld.github.io/contact.html)) or create an issue in the appropriate repository:
+
 
 - **Documentation**: https://github.com/dzwaneveld/dzwaneveld.github.io/issues
 - **Report/Thesis Template**: https://github.com/dzwaneveld/TU-Delft-Unofficial-Report-Template/issues
@@ -8,7 +9,7 @@ All the code related to the documentation can be found here. Feel free to send m
 
 ## Maintaining & Deploying
 
-As the time between maintenance is often a few months, I have written down some of the steps as a reminder for myself. I simply do not update the website every day and I cannot be bothered to Google the steps every time.
+As the time between maintenance is often a few months, I have written down some of the steps as a reminder for myself.
 
 ### Prerequisites
 

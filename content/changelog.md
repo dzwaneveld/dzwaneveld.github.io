@@ -1,5 +1,13 @@
 # Changelog
 
+## 23/05/2022
+
+* Shortened website name to 'LaTeX × TU Delft'
+* Added a quick reference manual that covers some of the basics of LaTeX
+* Updated the documentation of the report/thesis template to v1.5.3
+* Updated the documentation of the article template to v1.3
+* Revamped the FAQ of the report/thesis template
+
 ## 24/04/2022
 
 * Updated documentation of the report/thesis template to v1.5.1

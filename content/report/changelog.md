@@ -1,5 +1,17 @@
 # Changelog
 
+## 1.5.3 (23/05/2022)
+
+* **Fixes**:
+  * The `nameinlink` option of *cleveref* is no longer used by default (discouraged on stylistic grounds)
+  * Changed the wording of the license to be in accordance with the official guidelines
+
+## 1.5.2 (25/04/2022)
+
+* **Fixes**:
+  * Fixed issue with pdfLaTeX that was accidentally introduced in 1.5.1
+  * Added `\titlestyle` to header/footer as well
+
 ## 1.5.1 (24/04/2022)
 
 * **Features**:

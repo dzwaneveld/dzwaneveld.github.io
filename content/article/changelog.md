@@ -1,6 +1,10 @@
 # Changelog
 
-In the table below, the most notable changes can be found. Only major updates are tracked here. Minor updates only consist of small bug fixes.
+## 1.3 (23/05/2022)
+
+* Revisited the template to make it more comprehensive and accessible
+* Changed some of the documentation inside the template
+* Changed the wording of the license to be in accordance with the official guidelines
 
 ## 1.2 (07/02/2021)
 
