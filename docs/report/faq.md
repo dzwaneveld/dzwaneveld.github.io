@@ -33,7 +33,7 @@ Meeting the page limit requirements is nothing more than using spacing creativel
   \titlespacing*{\chapter}{0pt}{0pt}{2\baselineskip}
   ```
 
-  To give some ideas: (1) the size of the chapter number is defined by `\fontsize{96}{96}`, (2) the size of the title is defined by `\Huge` and (3) the spacing between the title and the text is defined by `2\baselineskip`. The formatting of the sections is done in similar fashion. See [this question](/report/faq.html#how-can-i-adjust-the-titles) for a more details about the `\titleformat` command.
+  To give some ideas: (1) the size of the chapter number is defined by `\fontsize{96}{96}`, (2) the size of the title is defined by `\Huge` and (3) the spacing between the title and the text is defined by `2\baselineskip`. The formatting of the sections is done in similar fashion. See the container at the bottom of [this section](/learn/chapters-sections-and-text.html#chapters-and-sections) for more details about the `\titleformat` command.
 
   If you would like to move the chapter number to the same line as the chapter title, replace the titleformat command (line 2-6 in the previous code block) with:
 
