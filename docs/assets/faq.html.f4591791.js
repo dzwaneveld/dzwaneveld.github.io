@@ -1,1 +1,0 @@
-const e={key:"v-6cb0dd75",path:"/article/faq.html",title:"FAQ",lang:"en-US",frontmatter:{},excerpt:"",headers:[{level:2,title:"Spanning figures or tables over two columns",slug:"spanning-figures-or-tables-over-two-columns",children:[]}],filePathRelative:"article/faq.md"};export{e as data};

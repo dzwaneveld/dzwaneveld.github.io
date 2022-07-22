@@ -1,1 +1,0 @@
-const e={key:"v-3eab857e",path:"/learn/setting-up-a-document.html",title:"Setting up a Document",lang:"en-US",frontmatter:{},excerpt:"",headers:[{level:2,title:"Installation",slug:"installation",children:[]},{level:2,title:"A Basic Document",slug:"a-basic-document",children:[]}],filePathRelative:"learn/setting-up-a-document.md"};export{e as data};

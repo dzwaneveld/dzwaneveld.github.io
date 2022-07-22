@@ -1,8 +1,10 @@
+const { defaultTheme } = require('@vuepress/theme-default')
+const { googleAnalyticsPlugin } = require('@vuepress/plugin-google-analytics')
+
 module.exports = {
   title: 'LaTeX × TU Delft',
   description: 'Improved TU Delft LaTeX report/thesis and article templates. Easy-to-use thanks to their simplicity, complex enough for extensive documents.',
-  dest: 'docs',
-  themeConfig: {
+  theme: defaultTheme({
     navbar: [
       {
         text: 'Report/Thesis Template',
@@ -112,13 +114,10 @@ module.exports = {
     sidebarDepth: 1,
     contributors: false,
     lastUpdated: false,
-  },
+  }),
   plugins: [
-    [
-      '@vuepress/plugin-google-analytics',
-      {
-        id: 'G-1BZK48KS3W',
-      },
-    ],
+    googleAnalyticsPlugin({
+      id: 'G-1BZK48KS3W',
+    }),
   ],
 }

@@ -1,4 +1,6 @@
 ---
+head:
+  - [meta, {name: google-site-verification, content: J7X3cx0cvmpiiodP57ZreTjN0KdiLOG5wG5TZzVyODM}]
 home: true
 title: Templates for Delft University of Technology
 heroText: LaTeX × TU Delft
