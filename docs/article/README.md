@@ -1,13 +1,13 @@
 # Article Template
 
 <p>
-  <a href="https://www.overleaf.com/docs?snip_uri=https://github.com/dzwaneveld/TU-Delft-Unofficial-Article-Template/archive/master.zip" target="_blank" >
+  <a href="https://www.overleaf.com/docs?snip_uri=https://github.com/dzwaneveld/tudelft-article-template/archive/master.zip" target="_blank" >
     <img alt="Open in Overleaf" src="/badges/open-in-overleaf.svg">
   </a>
-  <a href="https://github.com/dzwaneveld/TU-Delft-Unofficial-Article-Template/archive/master.zip" >
+  <a href="https://github.com/dzwaneveld/tudelft-article-template/archive/master.zip" >
     <img alt="Download .zip" src="/badges/download-zip.svg" hspace="4">
   </a>
-  <a href="https://github.com/dzwaneveld/TU-Delft-Unofficial-Article-Template" target="_blank">
+  <a href="https://github.com/dzwaneveld/tudelft-article-template" target="_blank">
     <img alt="Visit Github repository" src="/badges/visit-github-repository.svg">
   </a>
 </p>
@@ -27,7 +27,7 @@ This template is created for _pdfLaTeX_, but it is also compatible with _XeLaTeX
 </p>
 
 ::: tip Any questions?
-Visit the [FAQ](/report/faq.html) to see if that answers your question. For unanswered questions, suggestions or issues related to the template or this documentation, feel free to [contact me](/contact.html).
+Visit the [FAQ](/article/faq.html) to see if that answers your question. For unanswered questions, suggestions or issues related to the template or this documentation, feel free to [contact me](/contact.html).
 :::
 
 ##  Structure of the Template

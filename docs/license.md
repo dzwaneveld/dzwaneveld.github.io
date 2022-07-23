@@ -8,9 +8,9 @@ footer: Copyright © 2020-present Daan Zwaneveld
 
 ## License
 
-- The [report/thesis template](https://github.com/dzwaneveld/TU-Delft-Unofficial-Report-Template) by Daan Zwaneveld is licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). No attribution is required in PDF outputs created using this template.
+- The [report/thesis template](https://github.com/dzwaneveld/tudelft-report-thesis-template) by Daan Zwaneveld is licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). No attribution is required in PDF outputs created using this template.
 
-- The [article template](https://github.com/dzwaneveld/TU-Delft-Unofficial-Article-Template) is a derivative of the [Preparation of Papers for AIAA Technical Conferences](https://overleaf.com/latex/templates/latex-template-for-the-preparation-of-papers-for-aiaa-technical-conferences/rsssbwthkptn) by AIAA and Overleaf, used under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). The [article template](https://github.com/dzwaneveld/TU-Delft-Unofficial-Article-Template) by Daan Zwaneveld is licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). No attribution is required in PDF outputs created using this template.
+- The [article template](https://github.com/dzwaneveld/tudelft-article-template) is a derivative of the [Preparation of Papers for AIAA Technical Conferences](https://overleaf.com/latex/templates/latex-template-for-the-preparation-of-papers-for-aiaa-technical-conferences/rsssbwthkptn) by AIAA and Overleaf, used under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). The [article template](https://github.com/dzwaneveld/tudelft-article-template) by Daan Zwaneveld is licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). No attribution is required in PDF outputs created using this template.
 
 ## Attribution
 

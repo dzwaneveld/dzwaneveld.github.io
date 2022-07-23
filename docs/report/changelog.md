@@ -1,5 +1,15 @@
 # Changelog
 
+## 1.6 (23/07/2022)
+
+* **Features**:
+  * Updated title fonts to the new TU Delft house style, *Roboto Slab*, and removed *Georgia* as quote font. With *pdfLaTeX* as the compiler, *Roboto Slab* will also be used as the title font
+  * To improve ease of use, the class file can now be found in the root folder and logos in the `/figures` folder
+* **Fixes**:
+  * The comments in the class file and document are now more consistent. More comments have also been added to the `\newcommand{}{}` that defines the cover page
+  * Long titles will now work better on the cover
+  * Fixed inconsistencies with some commands
+
 ## 1.5.3 (23/05/2022)
 
 * **Fixes**:

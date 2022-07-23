@@ -1,6 +1,6 @@
 # FAQ
 
-Answers to questions that are directly related to the article template can be found below. More general questions and answers have been incorporated in a quick reference/simple manual and can now be found under the 'Learn' menu. For unanswered questions, suggestions or issues related to the template or this documentation, feel free to [contact me](/contact.html).
+Answers to questions that are directly related to the article template can be found below. More general questions and answers have been incorporated in a quick reference manual and can now be found under the *'Learn'* menu.
 
 ## Spanning figures or tables over two columns
 

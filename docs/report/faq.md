@@ -1,16 +1,14 @@
 # FAQ
 
-Answers to questions that are directly related to the report/thesis template can be found below. More general questions and answers have been incorporated in a quick reference manual and can now be found under the 'Learn' menu. Some quick shortcuts:
+Answers to questions that are directly related to the report/thesis template can be found below. More general questions and answers have been incorporated in a quick reference manual and can now be found under the *'Learn'* menu. Some quick shortcuts:
 
 [→ How to change the style or sorting order of the bibliography?](/learn/bibliography-and-citing.html#setting-up-the-bibliography)\
 [→ How to cross-reference with 'cleveref'?](/learn/cleveref.html)\
 [→ How to include source code with 'listings'?](/learn/listings.html)
 
-For unanswered questions, suggestions or issues related to the template or this documentation, feel free to [contact me](/contact.html).
-
 ## Getting as little/much text as possible on a single page
 
-Meeting the page limit requirements is nothing more than using spacing creatively. As such, here is an incomplete list to change some of these spacings. Changing the spacing has to be done in the class file (`layout/report-class.cls`), unless stated otherwise. In some cases, the spacing can be negative to reduce whitespace to the absolute minimum.
+Meeting the page limit requirements is nothing more than using spacing creatively. As such, here is an incomplete list to change some of these spacings. Changing the spacing has to be done in the class file (`tudelft-report.cls`), unless stated otherwise. In some cases, the spacing can be negative to reduce whitespace to the absolute minimum.
 
 - **Page margins**\
   The geometry of the page is defined with the command below. You could change the scale to your desire, replace it with a simple `margin=<length>` or fine-tune it with many different parameters. For the latter option, visit the [Overleaf guide](https://www.overleaf.com/learn/latex/page_size_and_margins#Fine_tuning_your_LaTeX_page_dimensions) on page size and margins.
@@ -24,12 +22,12 @@ Meeting the page limit requirements is nothing more than using spacing creativel
   The titles and its spacings are defined by `\titleformat` and `\titlespacing`. For example, the `\chapter` is defined by:
 
   ```latex
-  %% Formatting chapter titles and spacing
+  %% Format the chapter titles and spacing
   \titleformat{\chapter}[display]
       {\flushright}
       {\fontsize{96}{96}\selectfont\largetitlestyle\thechapter}
       {0pt}
-      {\Huge}
+      {\Huge\titlestyle}
   \titlespacing*{\chapter}{0pt}{0pt}{2\baselineskip}
   ```
 
@@ -39,7 +37,7 @@ Meeting the page limit requirements is nothing more than using spacing creativel
 
   ```latex
   \titleformat{\chapter}
-    {\Huge\flushright}
+    {\Huge\flushright\titlestyle}
     {\thechapter.}
     {5pt}
     {}

@@ -1,13 +1,13 @@
 # Report/Thesis Template
 
 <p>
-  <a href="https://www.overleaf.com/docs?snip_uri=https://github.com/dzwaneveld/TU-Delft-Unofficial-Report-Template/archive/master.zip&engine=xelatex" target="_blank" >
+  <a href="https://www.overleaf.com/docs?snip_uri=https://github.com/dzwaneveld/tudelft-report-thesis-template/archive/master.zip&engine=xelatex" target="_blank" >
     <img alt="Open in Overleaf" src="/badges/open-in-overleaf.svg">
   </a>
-  <a href="https://github.com/dzwaneveld/TU-Delft-Unofficial-Report-Template/archive/master.zip" >
+  <a href="https://github.com/dzwaneveld/tudelft-report-thesis-template/archive/master.zip" >
     <img alt="Download .zip" src="/badges/download-zip.svg" hspace="4">
   </a>
-  <a href="https://github.com/dzwaneveld/TU-Delft-Unofficial-Report-Template" target="_blank">
+  <a href="https://github.com/dzwaneveld/tudelft-report-thesis-template" target="_blank">
     <img alt="Visit Github repository" src="/badges/visit-github-repository.svg">
   </a>
 </p>
@@ -36,14 +36,14 @@ Visit the [FAQ](/report/faq.html) to see if that answers your question. For unan
 
 ### File Structure and Document Class
 
-As a report/thesis is generally a substantial document, the chapters and appendices have been separated into different files and folders for convenience. All these files are inserted in the main file, `report.tex`, using the `\input{filename}` command. The document class, which can be found in `layout/tudelft-report.cls`, is based on the `book` class.
+As a report/thesis is generally a substantial document, the chapters and appendices have been separated into different files and folders for convenience. All these files are inserted in the main file, `report.tex`, using the `\input{filename}` command. The document class, which can be found in `tudelft-report.cls`, is based on the `book` class.
 
 The document class has one custom global option. To change the default behavior, provide the option as parameter to the `\documentclass{}` command as seen below. Note that the option is case-sensitive.
 
 - **twoside**: margins and headers are adjusted and empty pages are added to resemble a printed (double-sided) book layout.
 
 ```latex
-\documentclass[twoside,<option2>,...]{layout/tudelft-report}
+\documentclass[twoside,<option2>,...]{tudelft-report}
 ```
 
 ### Document Structure

@@ -1,5 +1,6 @@
 const { defaultTheme } = require('@vuepress/theme-default')
 const { googleAnalyticsPlugin } = require('@vuepress/plugin-google-analytics')
+const { sitemapPlugin } = require("vuepress-plugin-sitemap2")
 
 module.exports = {
   title: 'LaTeX × TU Delft',
@@ -72,10 +73,6 @@ module.exports = {
             text: 'License',
             link: '/license.html',
           },
-          {
-            text: 'Changelog',
-            link: '/changelog.html'
-          },
         ]
       },
     ],
@@ -118,6 +115,9 @@ module.exports = {
   plugins: [
     googleAnalyticsPlugin({
       id: 'G-1BZK48KS3W',
+    }),
+    sitemapPlugin({
+      hostname: 'https://dzwaneveld.github.io'
     }),
   ],
 }
