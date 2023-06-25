@@ -25,7 +25,7 @@ The layout and style of the chapter and section titles can be changed with the p
 
 ::: details A brief look at the formatting of chapters and sections in the report/thesis template
 
-Navigate to the class file (`layout/tudelft-report.cls`) and find the lines where these titles are formatted. The standard format used in this template is:
+Navigate to the class file (`tudelft-report.cls`) and find the lines where these titles are formatted. The standard format used in this template is:
 
   ```latex
   \titleformat{<command>}[<shape>]

@@ -1,13 +1,13 @@
 # Report/Thesis Template
 
 <p>
-  <a href="https://www.overleaf.com/docs?snip_uri=https://github.com/dzwaneveld/tudelft-report-thesis-template/archive/master.zip&engine=xelatex" target="_blank" >
+  <a href="https://www.overleaf.com/docs?snip_uri=https://github.com/dzwaneveld/tudelft-report-thesis-template/archive/master.zip&engine=xelatex" target="_blank" style="display: inline-block">
     <img alt="Open in Overleaf" src="/badges/open-in-overleaf.svg">
   </a>
-  <a href="https://github.com/dzwaneveld/tudelft-report-thesis-template/archive/master.zip" >
+  <a href="https://github.com/dzwaneveld/tudelft-report-thesis-template/archive/master.zip" style="display: inline-block">
     <img alt="Download .zip" src="/badges/download-zip.svg" hspace="4">
   </a>
-  <a href="https://github.com/dzwaneveld/tudelft-report-thesis-template" target="_blank">
+  <a href="https://github.com/dzwaneveld/tudelft-report-thesis-template" target="_blank" style="display: inline-block">
     <img alt="Visit Github repository" src="/badges/visit-github-repository.svg">
   </a>
 </p>
@@ -21,11 +21,11 @@ This template aims to simplify and improve the (Xe)LaTeX report/thesis template 
 This template works with _pdfLaTeX_, _XeLaTeX_ and _LuaLaTeX_. In order to adhere to the TU Delft house style, either _XeLaTeX_ or _LuaLaTeX_ is required, as it supports TrueType and OpenType fonts. _BibLaTeX_ is used for the bibliography with as backend _biber_. If you would like to use it on Overleaf, click the badge above to get started immediately.
 
 <p align="center">
-  <img alt="TU Delft LaTeX Report Template" src="/images/report-template.jpg" width="30%" style='border:1px solid transparent'>
+  <img alt="TU Delft LaTeX Report Template" src="/images/report-template.jpg" width="30%" style='border:1px solid transparent;display: inline-block'>
 &nbsp;
-  <img alt="TU Delft LaTeX Report Template Title Page" src="/images/report-template-title.jpg" width="30%" style='border:1px solid #c7c7c7'>
+  <img alt="TU Delft LaTeX Report Template Title Page" src="/images/report-template-title.jpg" width="30%" style='border:1px solid #c7c7c7;display: inline-block'>
 &nbsp;
-  <img alt="TU Delft LaTeX Report Template Chapter Page" src="/images/report-template-chapter.jpg" width="30%" style='border:1px solid #c7c7c7'>
+  <img alt="TU Delft LaTeX Report Template Chapter Page" src="/images/report-template-chapter.jpg" width="30%" style='border:1px solid #c7c7c7;display: inline-block'>
 </p>
 
 ::: tip Any questions?

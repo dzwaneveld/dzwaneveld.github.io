@@ -1,10 +1,10 @@
 ---
-home: true
 title: License
-heroText: LaTeX × TU Delft
-tagline: Templates for Delft University of Technology
-footer: Copyright © 2020-present Daan Zwaneveld
+footer: true
+aside: false
 ---
+
+#  LaTeX × TU Delft
 
 ## License
 
@@ -14,6 +14,10 @@ footer: Copyright © 2020-present Daan Zwaneveld
 
 ## Attribution
 
-* This documentation is hosted on [Github Pages](https://pages.github.com/) and has been created using [VuePress v2](https://v2.vuepress.vuejs.org/).
+* This documentation is hosted on [Github Pages](https://pages.github.com/) and has been created using [VitePress](https://vitepress.dev/).
 * The report/thesis template is based on the report template by TU Delft. It used to be available [here](https://www.tudelft.nl/en/tu-delft-corporate-design/downloads/) under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 * The cover of the report/thesis template shows 'Canadarm 2 robotic arm grapples SpaceX Dragon' by NASA under [CC BY-NC 2.0](https://creativecommons.org/licenses/by-nc/2.0/). It has been modified slightly, but the original can be found [here](https://www.flickr.com/photos/nasa2explore/26298228022).
+
+## Privacy
+
+Google Analytics is used to obtain website statistics. Advertising features are disabled, leaving only the standard implementation. All data is collected anonymously. If you would like to know how the data is collected and processed, visit [the complete disclaimer](https://policies.google.com/technologies/partner-sites).

@@ -1,16 +1,18 @@
 ---
-home: true
 title: Contact
-heroText: LaTeX × TU Delft
-tagline: Templates for Delft University of Technology
-footer: Copyright © 2020-present Daan Zwaneveld
+footer: true
+aside: false
 ---
+
+# LaTeX × TU Delft
 
 ## Contact
 
 Feel free to contact me with questions, suggestions or issues related to the templates or this documentation. You can send an email to [dzwaneveld.github.io@gmail.com](mailto:dzwaneveld.github.io@gmail.com) or create an issue in the appropriate repository ([Report/Thesis Template](https://github.com/dzwaneveld/tudelft-report-thesis-template) / [Article Template](https://github.com/dzwaneveld/tudelft-article-template) / [Documentation](https://github.com/dzwaneveld/dzwaneveld.github.io)). With specific questions, please try to include the version number of the template (which can be found in `tudelft-report.cls` or `layout/tudelft-article.cls`).
 
+## Donate
 
-## Privacy
+With the TU Delft having abandoned their official LaTeX templates, I decided to rewrite the report/thesis template from scratch. Once a template shared with a few friends, now a properly documented template. Although I have since moved on from the TU Delft, I am still maintaining these templates and answerings questions. Accepting donations is merely an afterthought, but if you would like to support this personal project:
 
-Google Analytics is used to obtain website statistics. Advertising features are disabled, leaving only the standard implementation. All data is collected anonymously. If you would like to know how the data is collected and processed, visit [the complete disclaimer](https://policies.google.com/technologies/partner-sites).
+- Via bank transfer: `NL90ABNA0540801100` (BIC: `ABNANL2A`)
+- Via PayPal/Credit card: [Donation link](https://www.paypal.com/donate/?hosted_button_id=G52E9NEM7T6ZG) 

@@ -1,13 +1,13 @@
 # Article Template
 
 <p>
-  <a href="https://www.overleaf.com/docs?snip_uri=https://github.com/dzwaneveld/tudelft-article-template/archive/master.zip" target="_blank" >
+  <a href="https://www.overleaf.com/docs?snip_uri=https://github.com/dzwaneveld/tudelft-article-template/archive/master.zip" target="_blank" style="display: inline-block">
     <img alt="Open in Overleaf" src="/badges/open-in-overleaf.svg">
   </a>
-  <a href="https://github.com/dzwaneveld/tudelft-article-template/archive/master.zip" >
+  <a href="https://github.com/dzwaneveld/tudelft-article-template/archive/master.zip" style="display: inline-block">
     <img alt="Download .zip" src="/badges/download-zip.svg" hspace="4">
   </a>
-  <a href="https://github.com/dzwaneveld/tudelft-article-template" target="_blank">
+  <a href="https://github.com/dzwaneveld/tudelft-article-template" target="_blank" style="display: inline-block">
     <img alt="Visit Github repository" src="/badges/visit-github-repository.svg">
   </a>
 </p>
@@ -21,9 +21,9 @@ This template aimed to simplify and improve the template provided in the course 
 This template is created for _pdfLaTeX_, but it is also compatible with _XeLaTeX_ or _LuaLaTeX_. _Natbib_ is used for the bibliography with as backend _BibTeX_. If you would like to use it on Overleaf, click the badge above to get started immediately.
 
 <p align="center">
-  <img alt="TU Delft LaTeX Article Template" src="/images/article-template.jpg" width="40%" style='border:1px solid #c7c7c7'>
+  <img alt="TU Delft LaTeX Article Template" src="/images/article-template.jpg" width="40%" style='border:1px solid #c7c7c7;display: inline-block'>
 &nbsp;
-  <img alt="TU Delft LaTeX Article Template Twocolumn" src="/images/article-template-twocolumn.jpg" width="40%" style='border:1px solid #c7c7c7'>
+  <img alt="TU Delft LaTeX Article Template Twocolumn" src="/images/article-template-twocolumn.jpg" width="40%" style='border:1px solid #c7c7c7;display: inline-block'>
 </p>
 
 ::: tip Any questions?

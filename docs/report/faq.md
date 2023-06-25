@@ -67,19 +67,19 @@ As the `\author{}` command will break if any LaTeX commands are included, versio
 An additional six high quality cover images related to aerospace engineering can be found below. Make sure to appropriately credit the image if you decide to use one of them.
 
 <p align="center">
-  <b>1</b> <img alt="TU Delft LaTeX Report Template Cover 1" src="/images/report-template-cover-1.jpg" width="25%">
+  <b>1</b> <img alt="TU Delft LaTeX Report Template Cover 1" src="/images/report-template-cover-1.jpg" width="25%" style="display: inline-block">
 &nbsp;
-  <b>2</b> <img alt="TU Delft LaTeX Report Template Cover 2" src="/images/report-template-cover-2.jpg" width="25%">
+  <b>2</b> <img alt="TU Delft LaTeX Report Template Cover 2" src="/images/report-template-cover-2.jpg" width="25%" style="display: inline-block">
 &nbsp;
-  <b>3</b> <img alt="TU Delft LaTeX Report Template Cover 3" src="/images/report-template-cover-3.jpg" width="25%">
+  <b>3</b> <img alt="TU Delft LaTeX Report Template Cover 3" src="/images/report-template-cover-3.jpg" width="25%" style="display: inline-block">
 </p>
 
 <p align="center">
-  <b>4</b> <img alt="TU Delft LaTeX Report Template Cover 4" src="/images/report-template-cover-4.jpg" width="25%">
+  <b>4</b> <img alt="TU Delft LaTeX Report Template Cover 4" src="/images/report-template-cover-4.jpg" width="25%" style="display: inline-block">
 &nbsp;  
-  <b>5</b> <img alt="TU Delft LaTeX Report Template Cover 5" src="/images/report-template-cover-5.jpg" width="25%">
+  <b>5</b> <img alt="TU Delft LaTeX Report Template Cover 5" src="/images/report-template-cover-5.jpg" width="25%" style="display: inline-block">
 &nbsp;
-  <b>6</b> <img alt="TU Delft LaTeX Report Template Cover 6" src="/images/report-template-cover-6.jpg" width="25%">
+  <b>6</b> <img alt="TU Delft LaTeX Report Template Cover 6" src="/images/report-template-cover-6.jpg" width="25%" style="display: inline-block">
 </p>
 
 The recommended color of the title as a HTML color code is `4884d6` for the first two images. For the third and fourth image `fe860e` is recommended. For the final two images, the title color `e3a01b` is recommended.
