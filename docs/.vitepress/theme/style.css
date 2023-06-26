@@ -8,10 +8,10 @@
  * -------------------------------------------------------------------------- */
 
  :root {
-  --vp-c-brand: #4884d6;
-  --vp-c-brand-light: #6994cf;
-  --vp-c-brand-lighter: #8aafe3;
-  --vp-c-brand-lightest: #a0c1f0;
+  --vp-c-brand: #3975c9;
+  --vp-c-brand-light: #4884d6;
+  --vp-c-brand-lighter: #6994cf;
+  --vp-c-brand-lightest: #8aafe3;
   --vp-c-brand-dark: #4884d6;
   --vp-c-brand-darker: #336ec0;
   --vp-c-brand-dimm: rgba(100, 108, 255, 0.08);
@@ -42,7 +42,7 @@
   --vp-home-hero-name-background: -webkit-linear-gradient(
     120deg,
     #6994cf 30%,
-    #4884d6
+    #3975c9
   );
 }
 

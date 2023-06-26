@@ -6,7 +6,7 @@ With plenty of other resources out there, this is not meant as a complete introd
 
 If you are just getting started or are working together in a group, [Overleaf](https://overleaf.com) is likely the easiest to use as it requires no additional setup. Simply create an account, click the 'open in Overleaf' badge on the template webpage and everything will automatically be set up correctly.
 
-In case you are not working in a group and are working on a large document, a local installation might be a better option. A local  installation consists of a TeX distribution and an editor. On Windows, the choice for a distribution is either [TeX Live](https://www.tug.org/texlive/) or [MikTeX](https://miktex.org/). Choosing a TeX editor comes down to personal preference. I would not recommend my current setup with [Atom](https://atom.io) + specific packages. A better choice is [TeXstudio](https://www.texstudio.org/) or [Texmaker](https://www.xm1math.net/texmaker/).
+In case you are not working in a group and are working on a large document, a local installation might be a better option. A local  installation consists of a TeX distribution and an editor. On Windows, the choice for a distribution is either [TeX Live](https://www.tug.org/texlive/) or [MikTeX](https://miktex.org/). Choosing a TeX editor comes down to personal preference. [TeXstudio](https://www.texstudio.org/) or [Texmaker](https://www.xm1math.net/texmaker/) are often recommended.
 
 ## A Basic Document
 
