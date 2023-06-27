@@ -14,9 +14,9 @@
 
 This template aimed to simplify and improve the template provided in the course AE2333-I. Though it might still be useful for that course, the template is now intended to be a simple article template that is based on the official AIAA template. The following three main design principles apply:
 
-* **Simplicity First:** An organised class file with an option to switch to two columns easily;
-* **Effortless:** A careful selection of common packages to get started immediately;
-* **Complete:** Ready-to-go when it comes to the structure + An extensive sample bibliography.
+- **Simplicity First:** An organised class file with an option to switch to two columns easily;
+- **Effortless:** A careful selection of common packages to get started immediately;
+- **Complete:** Ready-to-go when it comes to the structure + An extensive sample bibliography.
 
 This template is created for _pdfLaTeX_, but it is also compatible with _XeLaTeX_ or _LuaLaTeX_. _Natbib_ is used for the bibliography with as backend _BibTeX_. If you would like to use it on Overleaf, click the badge above to get started immediately.
 

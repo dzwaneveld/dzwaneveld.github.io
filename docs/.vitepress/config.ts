@@ -11,6 +11,7 @@ export default defineConfig({
   description: "Simple and extensive report/thesis and article LaTeX templates. Easy-to-use. Ideal for complex documents.",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    logo: "logo.svg",
     nav: [
       { text: 'Report/Thesis Template', link: '/report/' },
       { text: 'Article Template', link: '/article/' },

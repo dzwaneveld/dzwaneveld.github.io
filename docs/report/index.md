@@ -14,9 +14,9 @@
 
 This template aims to simplify and improve the (Xe)LaTeX report/thesis template by Delft University of Technology with the following three main design principles:
 
-* **Simplicity First:** A class file that has been reduced by nearly 70% to simplify customization;
-* **Effortless:** A careful selection of common packages to get started immediately;
-* **Complete:** Ready-to-go when it comes to the document and file structure.
+- **Simplicity First:** A class file that has been reduced by nearly 70% to simplify customization;
+- **Effortless:** A careful selection of common packages to get started immediately;
+- **Complete:** Ready-to-go when it comes to the document and file structure.
 
 This template works with _pdfLaTeX_, _XeLaTeX_ and _LuaLaTeX_. In order to adhere to the TU Delft house style, either _XeLaTeX_ or _LuaLaTeX_ is required, as it supports TrueType and OpenType fonts. _BibLaTeX_ is used for the bibliography with as backend _biber_. If you would like to use it on Overleaf, click the badge above to get started immediately.
 

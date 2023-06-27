@@ -14,9 +14,10 @@ aside: false
 
 ## Attribution
 
-* This documentation is hosted on [Github Pages](https://pages.github.com/) and has been created using [VitePress](https://vitepress.dev/).
-* The report/thesis template is based on the report template by TU Delft. It used to be available [here](https://www.tudelft.nl/en/tu-delft-corporate-design/downloads/) under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
-* The cover of the report/thesis template shows 'Canadarm 2 robotic arm grapples SpaceX Dragon' by NASA under [CC BY-NC 2.0](https://creativecommons.org/licenses/by-nc/2.0/). It has been modified slightly, but the original can be found [here](https://www.flickr.com/photos/nasa2explore/26298228022).
+- This documentation is hosted on [Github Pages](https://pages.github.com/) and has been created using [VitePress](https://vitepress.dev/).
+- Icons: Copyright © by 2013-2022 Cole Bemis ([under MIT](https://github.com/feathericons/feather/blob/master/LICENSE)) and Lucide Contributors 2022 ([under ISC](https://github.com/lucide-icons/lucide/blob/main/LICENSE)).
+- The report/thesis template is based on the report template by TU Delft. It used to be available [here](https://www.tudelft.nl/en/tu-delft-corporate-design/downloads/) under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+- The cover of the report/thesis template shows 'Canadarm 2 robotic arm grapples SpaceX Dragon' by NASA under [CC BY-NC 2.0](https://creativecommons.org/licenses/by-nc/2.0/). It has been modified slightly, but the original can be found [here](https://www.flickr.com/photos/nasa2explore/26298228022).
 
 ## Privacy
 
