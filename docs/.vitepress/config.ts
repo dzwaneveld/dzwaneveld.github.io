@@ -8,7 +8,7 @@ const links = []
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "LaTeX × TU Delft",
-  description: "Simple and extensive report/thesis and article LaTeX templates. Easy-to-use. Ideal for complex documents.",
+  description: "Simple and extensive report/thesis and article LaTeX templates for TU Delft. Easy-to-use. Ideal for complex documents.",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: "logo.svg",
