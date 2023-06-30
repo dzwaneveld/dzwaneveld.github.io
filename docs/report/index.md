@@ -61,7 +61,7 @@ Between `\begin{document}` and `\end{document}`, the document is split into thre
 The template will automatically generate a cover when the `\makecover` command is used. Beforehand, some information will have to be specified. The title, subtitle and author will also be present on the title page. Additionally, the author will be added to the preface.
 
 - **Required for cover and title page:** `\title{...}`, `\author{...}`\
-Try to make the title concise and add more information in the optional subtitle. As space is limited, the report title page includes a table to specify student names and numbers when working in a larger group. Take a look at the [FAQ](/report/faq.html#adding-a-table-with-authors-on-the-cover-page) if you would like to add a table with authors on the cover.
+Try to make the title concise and add more information in the optional subtitle. As space is limited, the report title page includes a table to specify student names and numbers when working in a larger group. Take a look at the [FAQ](/report/faq.html#table-with-authors-on-the-cover) if you would like to add a table with authors on the cover.
 
 - **Required for cover page only:** `\coverimage{...}`, `\definecolor{title}{HTML}{...}`\
 The recommended aspect ratio of the image is 2:3 (portrait). The color of the title is defined with the second command. In this form, it accepts HTML color codes, but switching to rgb, cmyk and other models is also possible. Take a look at the [Overleaf guide](https://www.overleaf.com/learn/latex/Using_colours_in_LaTeX#Creating_your_own_colours) for more details.

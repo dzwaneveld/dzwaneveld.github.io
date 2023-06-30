@@ -6,7 +6,22 @@ Answers to questions that are directly related to the report/thesis template can
 [→ How to cross-reference with 'cleveref'?](/learn/cleveref.html)\
 [→ How to include source code with 'listings'?](/learn/listings.html)
 
-## Getting as little/much text as possible on a single page
+## Using the template in Dutch
+
+Although the template is fully in English, switching to Dutch (or any other language) has been made as easy as possible. There is no hardcoded English in the class file, leaving only the document files to be translated. Some notes:
+
+- Making sure the appropriate hyphenation rules and quotes are used can be done by adding *babel* and *csquotes* to the preamble:
+
+```latex
+\usepackage[dutch]{babel}
+\usepackage{csquotes}
+```
+
+- The affiliation on the cover is defined with `\affiliation{}` in `report.tex`.
+- Adding *babel* will also ensure a translated title of the table of contents.
+- The references can be renamed by changing the `title=References` option of the `\printbibliography` command in `report.tex`.
+
+## Creative Spacing
 
 Meeting the page limit requirements is nothing more than using spacing creatively. As such, here is an incomplete list to change some of these spacings. Changing the spacing has to be done in the class file (`tudelft-report.cls`), unless stated otherwise. In some cases, the spacing can be negative to reduce whitespace to the absolute minimum.
 
@@ -43,7 +58,7 @@ Meeting the page limit requirements is nothing more than using spacing creativel
     {}
   ```
 
-## Adding a table with authors on the cover page
+## Table with authors on the cover
 
 As the `\author{}` command will break if any LaTeX commands are included, version 1.5 added the `\covertable{}` command to easily add a table of authors on the cover page. The `\author{}` command will still have to be defined and will be added to the metadata of the PDF, the title page and preface. The cover page will instead use `\covertable{}` if it is defined. Although you could theoretically use the command however you want, an example with the intended use-case can be found below:
 
@@ -62,7 +77,7 @@ As the `\author{}` command will break if any LaTeX commands are included, versio
   <img alt="TU Delft LaTeX Report Template Author Table" src="/images/report-template-faq-authors.jpg" width="275">
 </p>
 
-## More high quality cover images with open licenses
+## More cover images with open licenses
 
 An additional six high quality cover images related to aerospace engineering can be found below. Make sure to appropriately credit the image if you decide to use one of them.
 

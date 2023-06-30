@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.7 (30/06/2023)
+
+* **Packages:**
+  * Added `parskip` to the preamble in `report.tex`
+* **Fixes**:
+  * Added the `no-math` option to *fontspec*
+  * Fixed inconsistency in the documentation
+
 ## 1.6 (23/07/2022)
 
 * **Features**:
