@@ -12,7 +12,7 @@ Feel free to contact me with questions, suggestions or issues related to the tem
 
 ## Donate
 
-With the TU Delft having abandoned their official LaTeX templates, I decided to rewrite the report/thesis template from scratch. Once a template shared with a few friends, now a properly documented template. Although I have since moved on from the TU Delft, I am still maintaining these templates and answerings questions. Accepting donations is merely an afterthought, but if you would like to support this personal project:
+With the TU Delft having abandoned their official LaTeX templates, I decided to rewrite the report/thesis template from scratch. Once a template shared with a few friends, now a properly documented template. Although I am now studying at the University of Groningen, I am still maintaining these templates and answerings questions. Accepting donations is merely an afterthought, but if you would like to support this personal project:
 
 - Via bank transfer: `NL90ABNA0540801100` (BIC: `ABNANL2A`)
 - Via PayPal/Credit card: [Donation link](https://www.paypal.com/donate/?hosted_button_id=G52E9NEM7T6ZG) 

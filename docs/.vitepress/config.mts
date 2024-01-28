@@ -1,9 +1,4 @@
-import { createWriteStream } from 'node:fs'
-import { resolve } from 'node:path'
-import { SitemapStream } from 'sitemap'
 import { defineConfig } from 'vitepress'
-
-const links = []
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -11,7 +6,7 @@ export default defineConfig({
   description: "Simple and extensive report/thesis and article LaTeX templates for TU Delft. Easy-to-use. Ideal for complex documents.",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    logo: "logo.svg",
+    logo: "/logo.svg",
     nav: [
       { text: 'Report/Thesis Template', link: '/report/' },
       { text: 'Article Template', link: '/article/' },
@@ -94,24 +89,13 @@ export default defineConfig({
     },
   },
 
+  sitemap: {
+    hostname: 'https://dzwaneveld.github.io',
+    lastmodDateOnly: false
+  },
+
   head: [
     ['script', {async: 'true', src: 'https://www.googletagmanager.com/gtag/js?id=G-1BZK48KS3W'}],
     ['script', {}, "window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-1BZK48KS3W');"]
-  ],
-
-  transformHtml: (_, id, { pageData }) => {
-    if (!/[\\/]404\.html$/.test(id))
-      links.push({
-        url: pageData.relativePath.replace(/\/index\.md$/, '/').replace(/\.md$/, '.html'),
-        lastmod: pageData.lastUpdated
-      })
-  },
-
-  buildEnd: ({ outDir }) => {
-    const sitemap = new SitemapStream({ hostname: 'https://dzwaneveld.github.io/' })
-    const writeStream = createWriteStream(resolve(outDir, 'sitemap.xml'))
-    sitemap.pipe(writeStream)
-    links.forEach((link) => sitemap.write(link))
-    sitemap.end()
-  }
+  ]
 })
