@@ -21,7 +21,26 @@ Although the template is fully in English, switching to Dutch (or any other lang
 - Adding *babel* will also ensure a translated title of the table of contents.
 - The references can be renamed by changing the `title=References` option of the `\printbibliography` command in `report.tex`.
 
-## Creative Spacing
+## Table with authors on the cover
+
+As the `\author{}` command will break if any LaTeX commands are included, version 1.5 added the `\covertable{}` command to easily add a table of authors on the cover page. The `\author{}` command will still have to be defined and will be added to the metadata of the PDF, the title page and preface. The cover page will instead use `\covertable{}` if it is defined. Although you could theoretically use the command however you want, an example with the intended use-case can be found below:
+
+```latex
+%% Add a table to the cover page; add this command before \makecover
+\covertable{\fontsize{20.74}{20.74}\selectfont
+    \begin{tabularx}{\linewidth}{@{}XX}
+        D. Bernoulli (1234567) & I. Newton (9876543) \\
+        M. Curie (9876543) & A. Einstein (1234567) \\
+        W. Wright (1234567)  & O. Wright (9876543) \\
+    \end{tabularx}
+}
+```
+
+<p align="center">
+  <img alt="TU Delft LaTeX Report Template Author Table" src="/images/report-template-faq-authors.jpg" width="275">
+</p>
+
+## Spacing & Page Limit Requirements
 
 Meeting the page limit requirements is nothing more than using spacing creatively. As such, here is an incomplete list to change some of these spacings. Changing the spacing has to be done in the class file (`tudelft-report.cls`), unless stated otherwise. In some cases, the spacing can be negative to reduce whitespace to the absolute minimum.
 
@@ -58,24 +77,17 @@ Meeting the page limit requirements is nothing more than using spacing creativel
     {}
   ```
 
-## Table with authors on the cover
+## Externalizing Tikz Graphics
 
-As the `\author{}` command will break if any LaTeX commands are included, version 1.5 added the `\covertable{}` command to easily add a table of authors on the cover page. The `\author{}` command will still have to be defined and will be added to the metadata of the PDF, the title page and preface. The cover page will instead use `\covertable{}` if it is defined. Although you could theoretically use the command however you want, an example with the intended use-case can be found below:
+If you are using a lot of Tikz graphics, externalizing these graphics might improve the compilation time. You can find more information about this [here](https://www.overleaf.com/learn/latex/Questions/I_have_a_lot_of_tikz%2C_matlab2tikz_or_pgfplots_figures%2C_so_I%27m_getting_a_compilation_timeout._Can_I_externalise_my_figures%3F). As a result of the `overlay` option, the Tikz graphics on the cover and title page will no longer be visible. This can be fixed by disabling the externalization locally. You can do so by adding `\tikzset{external/export next=false}` before the Tikz graphics, which can be done the main file, `report.tex`:
 
 ```latex
-%% Add a table to the cover page; add this command before \makecover
-\covertable{\fontsize{20.74}{20.74}\selectfont
-    \begin{tabularx}{\linewidth}{@{}XX}
-        D. Bernoulli (1234567) & I. Newton (9876543) \\
-        M. Curie (9876543) & A. Einstein (1234567) \\
-        W. Wright (1234567)  & O. Wright (9876543) \\
-    \end{tabularx}
-}
-```
+\tikzset{external/export next=false}
+\makecover
 
-<p align="center">
-  <img alt="TU Delft LaTeX Report Template Author Table" src="/images/report-template-faq-authors.jpg" width="275">
-</p>
+\tikzset{external/export next=false}
+\input{frontmatter/title-report}
+```
 
 ## More cover images with open licenses
 

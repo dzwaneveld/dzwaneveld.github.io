@@ -76,8 +76,7 @@ export default defineConfig({
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/dzwaneveld' },
-      { icon: 'linkedin', link: 'https://www.linkedin.com/in/dzwaneveld/'}
+      { icon: 'github', link: 'https://github.com/dzwaneveld' }
     ],
 
     footer: {
