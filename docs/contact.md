@@ -18,7 +18,7 @@ As I have moved on from the TU Delft for a few years now and I am currently stud
 Thank you for your understanding and cooperation!
 :::
 
-Feel free to contact me with questions, suggestions or issues related to the templates or this documentation. You can send an email to [dzwaneveld.github.io@gmail.com](mailto:dzwaneveld.github.io@gmail.com) or create an issue in the appropriate repository ([Report/Thesis Template](https://github.com/dzwaneveld/tudelft-report-thesis-template) / [Article Template](https://github.com/dzwaneveld/tudelft-article-template) / [Documentation](https://github.com/dzwaneveld/dzwaneveld.github.io)). 
+Feel free to contact me with questions, suggestions or issues related to the templates or this documentation. You can send an email to [dzwaneveld.reply562@passinbox.comm](mailto:dzwaneveld.reply562@passinbox.com) or create an issue in the appropriate repository ([Report/Thesis Template](https://github.com/dzwaneveld/tudelft-report-thesis-template) / [Article Template](https://github.com/dzwaneveld/tudelft-article-template) / [Documentation](https://github.com/dzwaneveld/dzwaneveld.github.io)). 
 
 ## Donate
 
