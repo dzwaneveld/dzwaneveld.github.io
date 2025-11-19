@@ -21,4 +21,4 @@ aside: false
 
 ## Privacy
 
-Google Analytics is used to obtain website statistics. Advertising features are disabled, leaving only the standard implementation. All data is collected anonymously. If you would like to know how the data is collected and processed, visit [the complete disclaimer](https://policies.google.com/technologies/partner-sites).
+Your privacy matters. As of November 2025, Google Analytics has been removed, and no data is collected on this website.

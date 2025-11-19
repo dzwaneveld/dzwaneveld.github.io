@@ -91,10 +91,5 @@ export default defineConfig({
   sitemap: {
     hostname: 'https://dzwaneveld.github.io',
     lastmodDateOnly: false
-  },
-
-  head: [
-    ['script', {async: 'true', src: 'https://www.googletagmanager.com/gtag/js?id=G-1BZK48KS3W'}],
-    ['script', {}, "window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-1BZK48KS3W');"]
-  ]
+  }
 })
