@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.7.1 (05/09/2024)
+
+* **Fixes**:
+  * Removed column for student numbers on report title page 
+  * Fixed numbering for subsubsections if enabled 
+
 ## 1.7 (30/06/2023)
 
 * **Packages:**
