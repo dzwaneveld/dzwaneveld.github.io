@@ -1,6 +1,4 @@
 ---
-head:
-  - [meta, {name: google-site-verification, content: J7X3cx0cvmpiiodP57ZreTjN0KdiLOG5wG5TZzVyODM}]
 layout: home
 title: Templates for Delft University of Technology
 
