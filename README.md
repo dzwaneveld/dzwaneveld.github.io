@@ -4,7 +4,7 @@ All documentation website files can be found in this repository. As the time bet
 
 ## Maintaining & Deploying
 
-- Prerequisites: Node.js v16+
+- Prerequisites: Node.js v18+
 
 - Install required packages:
 
@@ -17,4 +17,10 @@ npm ci
 ````
 npm run docs:dev
 npm run docs:build
+````
+
+- Updating to latest version (including alpha releases)
+
+````
+npm install vitepress@next
 ````
